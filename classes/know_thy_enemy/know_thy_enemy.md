@@ -2,6 +2,8 @@
 
 layout: default
 title: M1.1 What is a Zombie?
+---
+
 -----------------------------
 
 # M1.1 What is a Zombie?
