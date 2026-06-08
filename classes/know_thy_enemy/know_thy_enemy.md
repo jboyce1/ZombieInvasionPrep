@@ -77,14 +77,12 @@ Notes
 
 # Skill: [Evaluate a Casualty]({{ '/skills/medical/evaluate_a_casualty/' | relative_url }})
 
-You encounter a casualty during a zombie invasion. Your mission is to evaluate the casualty step by step to determine their condition. 
-
-
-## Complete Skill Activity
-
-[Evaluate a Casualty]({{ '/skills/medical/evaluate_a_casualty/' | relative_url }})
+You encounter a casualty during a zombie invasion. Your task is to evaluate the casualty step by step to determine their condition without making their condition worse.
+Successfully complete the following steps in both training and live scenerios:
 
 ## Assess a Casualty
+
+### Responsiveness, Breathing, Pulse, Bleeding, Shock, Recovery
 
 ### 1. Responsiveness
 
