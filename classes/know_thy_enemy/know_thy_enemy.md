@@ -26,7 +26,7 @@ title: M1.1 What is a Zombie?
 * Develop an initial response to a zombie emergency.
   
 
-<div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
+<div class="gap-medium">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
 
 
 ---
@@ -53,7 +53,6 @@ Notes
 * **1050–1100** — Here Come the Zombies planning exercise
 * **1100–1120** — Z-Team Assignment 1 analysis and planning
 
-
 <div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
 
 ---
@@ -72,17 +71,18 @@ Notes
   </iframe>
 </div>
 
+<div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
+
 ---
 
-# Skill: Evaluate a Casualty
+# Skill: [Evaluate a Casualty]({{ '/skills/medical/evaluate_a_casualty/' | relative_url }})
 
-You encounter a casualty during a zombie invasion.
+You encounter a casualty during a zombie invasion. Your mission is to evaluate the casualty step by step to determine their condition. 
 
-Your mission is to evaluate the casualty step by step to determine their condition. Choose wisely, or the casualty may not survive.
 
 ## Complete Skill Activity
 
-[Open Evaluate a Casualty]({{ '/skills/medical/evaluate_a_casualty/' | relative_url }})
+[Evaluate a Casualty]({{ '/skills/medical/evaluate_a_casualty/' | relative_url }})
 
 ## Assess a Casualty
 
