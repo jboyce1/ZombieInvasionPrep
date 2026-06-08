@@ -176,4 +176,16 @@ a:hover {
         text-align: center;
         white-space: nowrap; /* Prevents wrapping */
     }
+    /* Vertical spacing helpers */
+    .gap-small {
+        height: 25px;
+    }
+    
+    .gap-medium {
+        height: 50px;
+    }
+    
+    .gap-large {
+        height: 90px;
+    }
 }
