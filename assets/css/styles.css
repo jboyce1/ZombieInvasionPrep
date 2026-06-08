@@ -135,25 +135,25 @@ a:hover {
         box-shadow: 0 4px 12px rgba(0,0,0,0.4);
     }
   
-/* Vertical spacing helpers */
+    .gap-small,
+    .gap-medium,
+    .gap-large {
+        display: block;
+        clear: both;
+        width: 100%;
+    }
+    
     .gap-small {
-        height: 25px;
+        min-height: 25px;
     }
     
     .gap-medium {
-        height: 50px;
+        min-height: 50px;
     }
     
     .gap-large {
-        height: 90px;
+        min-height: 90px;
     }
-
-/* Section divider with breathing room */
-.section-break {
-    margin: 70px 0;
-    border: 0;
-    border-top: 2px solid #555;
-}
 
 /* Mobile Styles */
 @media screen and (max-width: 768px) {
