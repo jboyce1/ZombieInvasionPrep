@@ -36,14 +36,9 @@ title: M1.1 What is a Zombie?
 
 Notes
 
-
-
 ---
 
-
----
-
-# Module 1.1: Class 1
+# Class 1
 
 ## Agenda 0945–1120+
 
