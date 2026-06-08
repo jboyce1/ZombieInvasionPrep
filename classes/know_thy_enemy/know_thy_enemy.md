@@ -24,11 +24,8 @@ title: M1.1 What is a Zombie?
 * Evaluate a casualty.
 * Analyze a complex assignment.
 * Develop an initial response to a zombie emergency.
-
-
-
-
-
+  
+<div class="gap-large"></div> <!-- use gap-large gap-medium gap-small -->
 
 ---
 # `A zombie is what a zombie does...`
