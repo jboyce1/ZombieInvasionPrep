@@ -4,7 +4,7 @@ layout: default
 title: M1.1 What is a Zombie?
 ---
 <div style="text-align: center;">
-  <img src="{{ '/classes/know_thy_enemy/images/what_is_a_zombie_header.png' | relative_url }}" alt="What is a Zombie?" style="max-width: 80%; height: auto;">
+  <img src="{{ '/classes/know_thy_enemy/what_is_a_zombie_header.png' | relative_url }}" alt="What is a Zombie?" style="max-width: 80%; height: auto;">
 </div>
 -----------------------------
 
@@ -24,15 +24,21 @@ title: M1.1 What is a Zombie?
 * Evaluate a casualty.
 * Analyze a complex assignment.
 * Develop an initial response to a zombie emergency.
+
+
+
+
+
+
 ---
+# `A zombie is what a zombie does...`
 
 <div style="text-align: center;">
-  <img src="{{ '/classes/know_thy_enemy/images/head_outline.jpg' | relative_url }}" alt="What is a Zombie?" style="max-width: 80%; height: auto;">
+  <img src="{{ '/classes/know_thy_enemy/head_outline.jpg' | relative_url }}" alt="What is a Zombie?" style="max-width: 80%; height: auto;">
 </div>
 
-## What is a Zombie?
+Notes
 
-### `A zombie is what a zombie does...`
 
 
 ---
