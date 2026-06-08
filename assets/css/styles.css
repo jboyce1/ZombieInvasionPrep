@@ -144,15 +144,15 @@ a:hover {
     }
     
     .gap-small {
-        min-height: 45px;
-    }
-    
-    .gap-medium {
         min-height: 90px;
     }
     
-    .gap-large {
+    .gap-medium {
         min-height: 180px;
+    }
+    
+    .gap-large {
+        min-height: 360px;
     }
 
 /* Mobile Styles */
