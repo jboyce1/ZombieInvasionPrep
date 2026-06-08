@@ -41,8 +41,9 @@ Notes
 
 # Class 1
 
-## Agenda 
-## 0945–1120+
+## Agenda
+
+### 0945–1120+
 
 | Time | Activity |
 |---|---|
