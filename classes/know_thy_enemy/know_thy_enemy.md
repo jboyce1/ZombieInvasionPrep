@@ -3,31 +3,16 @@
 layout: default
 title: M1.1 What is a Zombie?
 ---
-
+<div style="text-align: center;">
+  <img src="{{ '/classes/know_thy_enemy/images/what_is_a_zombie_header.png' | relative_url }}" alt="What is a Zombie?" style="max-width: 80%; height: auto;">
+</div>
 -----------------------------
 
 # M1.1 What is a Zombie?
 
 **Focus**: Identifying and understanding the zombie threat
 
-**Skill**: Evaluate a casualty
-
-**Activity**: Z-Team Assignment 1 planning
-
-
-<div style="text-align: center;">
-  <img src="{{ '/classes/know_thy_enemy/images/what_is_a_zombie_header.jpg' | relative_url }}" alt="What is a Zombie?" style="max-width: 80%; height: auto;">
-</div>
-
-## What is a Zombie?
-
-### `A zombie is what a zombie does...`
-
-As you watch each of the films, consider their connection to real-world disasters and emergencies.
-
-In your discussions and notes, try to connect the material to the course content covered so far. Points will be given for completeness and relevancy.
-
----
+**Activity**: Z-Team Assignment 1
 
 ## Essential Question
 
@@ -39,6 +24,19 @@ In your discussions and notes, try to connect the material to the course content
 * Evaluate a casualty.
 * Analyze a complex assignment.
 * Develop an initial response to a zombie emergency.
+---
+
+<div style="text-align: center;">
+  <img src="{{ '/classes/know_thy_enemy/images/head_outline.jpg' | relative_url }}" alt="What is a Zombie?" style="max-width: 80%; height: auto;">
+</div>
+
+## What is a Zombie?
+
+### `A zombie is what a zombie does...`
+
+
+---
+
 
 ---
 
