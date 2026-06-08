@@ -27,7 +27,7 @@ title: M1.1 What is a Zombie?
   
 
 <div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
-<div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
+
 
 ---
 # `A zombie is what a zombie does...`
@@ -54,6 +54,84 @@ Notes
 | 1050–1100 | Here Come the Zombies planning exercise |
 | 1100–1120 | Z-Team Assignment 1 analysis and planning |
 
+<div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
+
+
+# --- THE GREAT MARKDOWN DIAGNOSTIC TEST ---
+
+## Option A: Forced Kramdown Mode (The "I don't care about HTML" fix)
+By wrapping this block and adding `markdown="1"`, we are explicitly telling GitHub to force the markdown parser back on, even if an unclosed HTML block earlier in the page tried to disable it.
+
+<div markdown="1">
+
+| Time | Activity |
+|---|---|
+| 0945–1005 | Classroom rules, procedures, and lockers |
+| 1005–1020 | Skill: Evaluate a casualty |
+| 1020–1030 | What is a Zombie? |
+| 1050–1100 | Here Come the Zombies planning exercise |
+| 1100–1120 | Z-Team Assignment 1 analysis and planning |
+
+</div>
+
+
+## Option B: The Strict Space Pipe Table
+Sometimes GitHub Flavored Markdown (GFM) gets picky if table pipes aren't explicitly spaced out or if the outer borders are missing. This version uses explicit outer boundaries.
+
+| Time | Activity |
+| :--- | :--- |
+| 0945–1005 | Classroom rules, procedures, and lockers |
+| 1005–1020 | Skill: Evaluate a casualty |
+| 1020–1030 | What is a Zombie? |
+| 1050–1100 | Here Come the Zombies planning exercise |
+| 1100–1120 | Z-Team Assignment 1 analysis and planning |
+
+
+## Option C: Pure HTML Table Block
+If your Jekyll site configuration completely blocks Markdown tables for some reason, standard HTML skips the markdown parser entirely.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left; padding: 8px; border: 1px solid #444;">Time</th>
+      <th style="text-align: left; padding: 8px; border: 1px solid #444;">Activity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #444;">0945–1005</td>
+      <td style="padding: 8px; border: 1px solid #444;">Classroom rules, procedures, and lockers</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #444;">1005–1020</td>
+      <td style="padding: 8px; border: 1px solid #444;">Skill: Evaluate a casualty</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #444;">1020–1030</td>
+      <td style="padding: 8px; border: 1px solid #444;">What is a Zombie?</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #444;">1050–1100</td>
+      <td style="padding: 8px; border: 1px solid #444;">Here Come the Zombies planning exercise</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px; border: 1px solid #444;">1100–1120</td>
+      <td style="padding: 8px; border: 1px solid #444;">Z-Team Assignment 1 analysis and planning</td>
+    </tr>
+  </tbody>
+</table>
+
+
+## Option D: Simple Bulleted List (The Fail-Safe backup)
+If your layout/CSS is actively compressing tables down into unreadable single strings, a structured list with bolded elements acts as a bulletproof structural replacement.
+
+* **0945–1005** — Classroom rules, procedures, and lockers
+* **1005–1020** — Skill: Evaluate a casualty
+* **1020–1030** — What is a Zombie?
+* **1050–1100** — Here Come the Zombies planning exercise
+* **1100–1120** — Z-Team Assignment 1 analysis and planning
+
+# --- END OF TEST ---
 ---
 # Classroom Rules, Procedures, and Lockers
 
