@@ -41,15 +41,16 @@ Notes
 
 # Class 1
 
-## Agenda 0945–1120+
+## Agenda 
+## 0945–1120+
 
-| Time        | Activity                                  |
-
-| 0945–1005   | Classroom rules, procedures, and lockers  |
-| 1005–1020   | Skill: Evaluate a casualty                |
-| 1020–1030   | What is a Zombie?                         |
-| 1050–1100   | Here Come the Zombies planning exercise   |
-| 1100–1120   | Z-Team Assignment 1 analysis and planning |
+| Time | Activity |
+|---|---|
+| 0945–1005 | Classroom rules, procedures, and lockers |
+| 1005–1020 | Skill: Evaluate a casualty |
+| 1020–1030 | What is a Zombie? |
+| 1050–1100 | Here Come the Zombies planning exercise |
+| 1100–1120 | Z-Team Assignment 1 analysis and planning |
 
 ---
 
