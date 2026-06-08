@@ -9,8 +9,11 @@ title: M1.1 What is a Zombie?
 # M1.1 What is a Zombie?
 
 **Focus**: Identifying and understanding the zombie threat
+
 **Skill**: Evaluate a casualty
+
 **Activity**: Z-Team Assignment 1 planning
+
 
 <div style="text-align: center;">
   <img src="{{ '/classes/know_thy_enemy/images/what_is_a_zombie_header.jpg' | relative_url }}" alt="What is a Zombie?" style="max-width: 80%; height: auto;">
