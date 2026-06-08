@@ -27,6 +27,7 @@ title: M1.1 What is a Zombie?
   
 
 <div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
+<div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
 
 ---
 # `A zombie is what a zombie does...`
@@ -54,34 +55,6 @@ Notes
 | 1100–1120 | Z-Team Assignment 1 analysis and planning |
 
 ---
-# Class 1
-
-## Agenda
-
-### 0945–1120+
-
-| Time | Activity |
-|---|---|
-| 0945–1005 | Classroom rules, procedures, and lockers |
-| 1005–1020 | Skill: Evaluate a casualty |
-| 1020–1030 | What is a Zombie? |
-| 1050–1100 | Here Come the Zombies planning exercise |
-| 1100–1120 | Z-Team Assignment 1 analysis and planning |
-
----
-
-### 0945–1120+
-
-| Time | Activity |
-|---|---|
-| 0945–1005 | Classroom rules, procedures, and lockers |
-| 1005–1020 | Skill: Evaluate a casualty |
-| 1020–1030 | What is a Zombie? |
-| 1050–1100 | Here Come the Zombies planning exercise |
-| 1100–1120 | Z-Team Assignment 1 analysis and planning |
-
----
-
 # Classroom Rules, Procedures, and Lockers
 
 <div style="text-align: center;">
