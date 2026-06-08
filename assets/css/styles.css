@@ -134,6 +134,27 @@ a:hover {
         word-break: break-word;
         box-shadow: 0 4px 12px rgba(0,0,0,0.4);
     }
+  
+/* Vertical spacing helpers */
+    .gap-small {
+        height: 25px;
+    }
+    
+    .gap-medium {
+        height: 50px;
+    }
+    
+    .gap-large {
+        height: 90px;
+    }
+
+/* Section divider with breathing room */
+.section-break {
+    margin: 70px 0;
+    border: 0;
+    border-top: 2px solid #555;
+}
+
 /* Mobile Styles */
 @media screen and (max-width: 768px) {
     /* Hide left-side TOC navigation */
@@ -175,17 +196,5 @@ a:hover {
         margin: 4px;
         text-align: center;
         white-space: nowrap; /* Prevents wrapping */
-    }
-    /* Vertical spacing helpers */
-    .gap-small {
-        height: 25px;
-    }
-    
-    .gap-medium {
-        height: 50px;
-    }
-    
-    .gap-large {
-        height: 90px;
     }
 }
