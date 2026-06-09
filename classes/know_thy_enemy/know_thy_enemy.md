@@ -164,6 +164,8 @@ Develop an initial plan for responding to the approaching zombies.
 
 Additional scenario information and context will be provided during class.
 
+<div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
+
 ---
 
 # Z-Team Assignment 1
