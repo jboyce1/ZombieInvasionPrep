@@ -184,12 +184,28 @@ Review the assignment, identify its major requirements, and begin developing a p
   </iframe>
 </div>
 
+# ZT1 Assignment 
+
 [Open or download Z-Team Assignment 1 PDF]({{ '/classes/know_thy_enemy/z-team_assignment_1.pdf' | relative_url }})
 [Open or download Z-Team Assignment 1 Presentation]({{ '/classes/know_thy_enemy/z-team_assignment_1.odp' | relative_url }})
 
-## Assignment Files
+## [Z-Team Assignment 1 rubric]({{ '/classes/know_thy_enemy/files/z-team_assignment_1_rubric.pdf' | relative_url }})
 
-[Z-Team Assignment 1 rubric]({{ '/classes/know_thy_enemy/files/z-team_assignment_1_rubric.pdf' | relative_url }})
+## Research Libraries
+
+Use these libraries to support the categories in Z-Team Assignment 1.
+
+* [Strategy in a Zombie Invasion]({{ '/classes/know_thy_enemy/strategy/' | relative_url }})
+  Real-world disasters, military strategy, public health, evacuation, supply chains, quarantine, communication, historical examples
+
+* [Should We Call a Zombie a Zombie? / Historical Roots of Zombies]({{ '/classes/know_thy_enemy/origins/' | relative_url }})
+  Zombie origins, folklore, genre differences, cultural meanings, lived experience, language, naming
+
+* [Fear, Anxiety and Survival]({{ '/classes/know_thy_enemy/fear/' | relative_url }})
+  Fear, anxiety, emotion, threat, survival, teenage effects
+
+* [Types of Modern Zombies]({{ '/classes/know_thy_enemy/types/' | relative_url }})
+  Typology, classification, zombie genres, traits, behavior patterns
 
 <!--
 Upload the PDF to:
