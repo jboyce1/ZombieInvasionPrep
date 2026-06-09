@@ -9,7 +9,7 @@ title: Know Thy Enemy Class 1
 
 ---
 
-# Know The Enemy Class 1
+# Know Thy Enemy 1
 
 ## Agenda
 
@@ -168,7 +168,7 @@ Review the assignment, identify its major requirements, and begin developing a p
 
 [Open or download Z-Team Assignment 1 Presentation]({{ '/classes/know_thy_enemy/z-team_assignment_1.odp' | relative_url }})
 
-## [Z-Team Assignment 1 rubric]({{ '/classes/know_thy_enemy/files/z-team_assignment_1_rubric.pdf' | relative_url }})
+## [Z-Team Assignment 1 rubric]({{ '/classes/know_thy_enemy/z-team_assignment_1_rubric.pdf' | relative_url }})
 
 ## Research Libraries
 
