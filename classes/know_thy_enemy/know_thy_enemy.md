@@ -28,16 +28,6 @@ title: M1.1 What is a Zombie?
 
 <div class="gap-medium">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
 
-
----
-# `A zombie is what a zombie does...`
-
-<div style="text-align: center;">
-  <img src="{{ '/classes/know_thy_enemy/head_outline.jpg' | relative_url }}" alt="What is a Zombie?" style="max-width: 80%; height: auto;">
-</div>
-
-Notes
-
 ---
 
 # Class 1
@@ -75,14 +65,16 @@ Notes
 
 ---
 
-# Skill: [Evaluate a Casualty]({{ '/skills/medical/evaluate_a_casualty/' | relative_url }})
+# Skill: [Assess a Casualty]({{ '/skills/medical/evaluate_a_casualty/' | relative_url }})
 
 You encounter a casualty during a zombie invasion. Your task is to evaluate the casualty step by step to determine their condition without making their condition worse.
-Successfully complete the following steps in both training and live scenerios:
 
 ## Assess a Casualty
-
-### Responsiveness, Breathing, Pulse, Bleeding, Shock, Recovery
+Successfully complete the following steps in both training and live scenerios:
+### Responsiveness, Breathing, Pulse, Bleeding, Shock, Recovery, Help
+* Communicate verbally what you are doing as you do it
+* Complete assessment in less than one minute (subject to change)
+ 
 
 ### 1. Responsiveness
 
@@ -94,15 +86,16 @@ Check whether the casualty responds to:
 
 ### 2. Breathing
 
-Place your ear near the casualty's mouth while watching their chest.
+Place your ear near the casualty's mouth while watching their chest. Communicate status
 
 * Listen for breathing.
 * Feel for air leaving the mouth.
 * Watch for the chest to rise and fall.
+* Notice indicators of probelms breathing
 
 ### 3. Pulse
 
-Check for a radial pulse at the wrist.
+Check for a radial pulse at the wrist. Descibe pulse rate & strength as indicator of vitality.
 
 ### 4. Bleeding
 
@@ -110,9 +103,7 @@ Use your hands to carefully sweep the casualty for blood or injuries that may no
 
 ### 5. Shock
 
-Shock occurs when the body's organs and tissues do not receive enough oxygen-rich blood.
-
-A casualty experiencing shock may appear as though they are drowning because their body is not receiving enough oxygen.
+Shock occurs when the body's organs and tissues do not receive enough oxygen-rich blood. A casualty experiencing shock may appear as though they are drowning because their body is not receiving enough oxygen. Communicate what you are looking for and you are seeing.
 
 ### 6. Recovery Position
 
@@ -122,9 +113,30 @@ Before rolling the casualty into the recovery position:
 * Watch for possible spinal injuries.
 * Attempt to keep the casualty's head and neck aligned while rolling them.
 
+### 7. Get help
+
+Identify ways to get help based on the given scenerio.
+* In-person
+* Proxy (asking someone else)
+* Comms
+  
+Have on hand what you need to communicate for help
+* Location of casualty
+* Condiditon of casualty
+* Any specialized equipment needed
+* Any danger to emergency responders
+
 ---
 
-# What is a Zombie?
+# `A zombie is what a zombie does...`
+
+<div style="text-align: center;">
+  <img src="{{ '/classes/know_thy_enemy/head_outline.jpg' | relative_url }}" alt="What is a Zombie?" style="max-width: 80%; height: auto;">
+</div>
+
+Notes: brainstem, motor systems, procedural memory, prefrontal cortex, Broca’s area, Wernicke’s area, amygdala, hippocampus, episodic memory, social taboo
+
+<div class="gap-medium">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
 
 <div style="text-align: center;">
   <iframe
@@ -139,19 +151,6 @@ Before rolling the casualty into the recovery position:
   </iframe>
 </div>
 
-<br>
-
-<div style="text-align: center;">
-  <img src="{{ '/classes/know_thy_enemy/images/what_is_a_zombie.jpg' | relative_url }}" alt="What is a Zombie?" style="max-width: 80%; height: auto;">
-</div>
-
-<!--
-Upload the image to:
-
-classes/know_thy_enemy/images/what_is_a_zombie.jpg
-
-You can change the filename and path above later.
--->
 
 ---
 
