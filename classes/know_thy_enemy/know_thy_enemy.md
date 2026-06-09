@@ -174,16 +174,17 @@ Additional scenario information and context will be provided during class.
 
 Review the assignment, identify its major requirements, and begin developing a plan with your Z-Team.
 
-<div style="text-align: center;">
+<div style="width: 100%; height: 750px; border: 2px solid #555; overflow: hidden; margin: 20px 0;">
   <iframe
-    src="https://mypps.sharepoint.com/sites/ZombieInvasionPreparation/_layouts/15/Doc.aspx?sourcedoc={fafa1f63-b4ec-4b40-8d82-03408411d711}&amp;action=embedview&amp;wdAr=1.3333333333333333"
-    width="720"
-    height="540"
-    frameborder="0"
-    title="Z-Team Assignment 1 PowerPoint Viewer"
-    style="max-width: 100%;">
+    src="{{ '/classes/know_thy_enemy/z-team_assignment_1.pdf' | relative_url }}"
+    width="100%"
+    height="100%"
+    style="border: none;"
+    title="Z-Team Assignment 1 PDF">
   </iframe>
 </div>
+
+[Open or download Z-Team Assignment 1 PDF]({{ '/classes/know_thy_enemy/z-team_assignment_1.pdf' | relative_url }})
 
 ## Assignment Files
 
