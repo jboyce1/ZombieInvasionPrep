@@ -185,10 +185,11 @@ Review the assignment, identify its major requirements, and begin developing a p
 </div>
 
 [Open or download Z-Team Assignment 1 PDF]({{ '/classes/know_thy_enemy/z-team_assignment_1.pdf' | relative_url }})
+[Open or download Z-Team Assignment 1 Presentation]({{ '/classes/know_thy_enemy/z-team_assignment_1.odp' | relative_url }})
 
 ## Assignment Files
 
-[Download Z-Team Assignment 1 PDF]({{ '/classes/know_thy_enemy/files/z-team-assignment-1.pdf' | relative_url }})
+[Z-Team Assignment 1 rubric]({{ '/classes/know_thy_enemy/files/z-team_assignment_1_rubric.pdf' | relative_url }})
 
 <!--
 Upload the PDF to:
