@@ -21,16 +21,24 @@ title: M1.1 What is a Zombie?
 ## Objectives
 
 * Follow classroom rules and procedures.
-* Evaluate a casualty.
 * Analyze a complex assignment.
 * Develop an initial response to a zombie emergency.
+
+## Skills
+* Assess a Casualty
+* Modified Bowline
+* Respond to Heat Injury
   
+## Classes
+* [Know The Enemy Class 1]({{ '/classes/know_thy_enemy/class1.md' | relative_url }})
+* [Know The Enemy Class 2]({{ '/classes/know_thy_enemy/class2.md' | relative_url }})
+* [Know The Enemy Class 3]({{ '/classes/know_thy_enemy/class3.md' | relative_url }})
 
 <div class="gap-medium">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
 
 ---
 
-# Class 1
+# Know The Enemy Class 1
 
 ## Agenda
 
@@ -184,9 +192,9 @@ Review the assignment, identify its major requirements, and begin developing a p
   </iframe>
 </div>
 
-# ZT1 Assignment 
 
 [Open or download Z-Team Assignment 1 PDF]({{ '/classes/know_thy_enemy/z-team_assignment_1.pdf' | relative_url }})
+
 [Open or download Z-Team Assignment 1 Presentation]({{ '/classes/know_thy_enemy/z-team_assignment_1.odp' | relative_url }})
 
 ## [Z-Team Assignment 1 rubric]({{ '/classes/know_thy_enemy/files/z-team_assignment_1_rubric.pdf' | relative_url }})
