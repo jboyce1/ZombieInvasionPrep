@@ -9,7 +9,9 @@ title: Know thy Enemy 3
 # Know thy Enemy 3
 
 **Focus**: Debriefing, communication, leadership, and team reflection
+
 **Skill**: Heat Injury
+
 **Activity**: Zombie presentations and Leadership Campfire
 
 ---
@@ -27,12 +29,11 @@ title: Know thy Enemy 3
 * **1045–1105** — Leadership Campfire
 * **1105–1120** — Group Leadership Style Reflection
 
+<div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
 
 ---
 
 # Skill: Heat Injury
-
-### `0945–1000`
 
 Heat injury can become a serious problem during emergencies, survival situations, physical activity, and long periods of stress.
 
@@ -49,6 +50,8 @@ In this skill section, pay attention to:
 [Heat Injury Reference]({{ 'skills/medical/heat_injury/Heat_Related_Illness.pdf' | relative_url }})
 
 [Heat Injury Skill Page]({{ '/skills/medical/heat_injury/' | relative_url }})
+
+<div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
 
 ---
 
@@ -70,11 +73,12 @@ As groups present, listen for:
 * how the group used evidence or examples
 * how clearly the group communicates its argument
 
+<div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
+
 ---
 
 # Personality and Leadership Big Five Baseline
 
-### `1030–1045`
 
 Complete the Personality and Leadership Big Five Baseline.
 
@@ -83,6 +87,14 @@ This is not meant to permanently define you.
 It is a starting point for thinking about how you may naturally act in groups, especially under stress.
 
 After submitting your answers, be ready to think about how personality connects to leadership, communication, conflict, and group survival.
+
+https://bigfive-test.com/test
+<a href="https://bigfive-test.com/test" target="_blank" rel="noopener noreferrer">Take the big-five test</a>
+
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfZJC2UCP4ZR7HfDXrVZoowGWVIvjrbcL7TeW-A8NA94Z4a7g/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Submit your results</a>
+
+
+<div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
 
 ---
 
@@ -107,9 +119,8 @@ As we talk, think about leaders in your own life:
 * club leaders
 * community leaders
 
-Complete 5 examples for participation credit.
 
-## Discussion Ideas
+## Discussion Notes
 
 Good leaders make their groups better.
 
@@ -118,10 +129,6 @@ Bad leaders may make the task harder, the group weaker, or the people around the
 Teams need to communicate frustration before it becomes resentment.
 
 There is a balance between speaking honestly and causing unnecessary problems.
-
-Keeping quiet can sometimes protect the group in the moment.
-
-Keeping quiet too long can create resentment, confusion, or disconnection.
 
 Debriefing matters.
 
@@ -133,81 +140,15 @@ Talking through what happened can help people understand the event, repair trust
 
 # Leadership Styles
 
-## Visionary Leader
-
-A visionary leader drives change through innovation and creativity. They focus on long-term goals and inspire others with a clear and compelling vision of the future.
-
-## Pragmatic Leader
-
-A pragmatic leader values practicality and efficiency. They prefer proven methods and focus on achieving goals through strategies that are likely to work.
-
-## Organizational Leader
-
-An organizational leader is disciplined, detail-oriented, and strong at planning, organizing, and executing tasks.
-
-## Flexible Leader
-
-A flexible leader adapts to changing situations. They are comfortable with uncertainty and can adjust when the original plan stops working.
-
-## Charismatic Leader
-
-A charismatic leader is outgoing, energetic, and motivating. They often become the visible voice or emotional center of a group.
-
-## Reserved Leader
-
-A reserved leader uses a quieter approach. They listen carefully, think before speaking, and often build trust through calm decision-making.
-
-## Supportive Leader
-
-A supportive leader focuses on team well-being, cooperation, and inclusion. They help people feel valued and keep the group connected.
-
-## Challenging Leader
-
-A challenging leader pushes the group toward higher standards. They ask hard questions, point out weaknesses, and hold people accountable.
-
-## Cautious Leader
-
-A cautious leader focuses on risks, safety, and careful decision-making. They are useful when a poor decision could have serious consequences.
-
-## Resilient Leader
-
-A resilient leader remains calm under pressure. They provide stability during difficult, stressful, or uncertain situations.
-
----
-
-# Additional Leadership Styles
-
-## Autocratic Leadership
-
-Autocratic leaders make decisions with little input from the group. This can be effective when fast decisions are necessary, but it can also limit trust and participation.
-
-## Democratic Leadership
-
-Democratic leaders value input from team members and encourage participation in decision-making.
-
-## Laissez-Faire Leadership
-
-Laissez-faire leaders take a hands-off approach and allow team members to work independently with minimal supervision.
-
-## Transformational Leadership
-
-Transformational leaders inspire and motivate people to grow, change, and achieve more than they originally thought possible.
-
-## Transactional Leadership
-
-Transactional leaders focus on structure, expectations, rewards, consequences, and clear responsibilities.
-
-## Coach-Style Leadership
-
-Coach-style leaders focus on helping people improve. They provide guidance, feedback, and support.
-
-## Bureaucratic Leadership
-
-Bureaucratic leaders follow established rules, procedures, and systems. This style can be useful when consistency and compliance matter.
-
-## Servant Leadership
-
-Servant leaders prioritize the needs of the team. They lead by supporting others and helping the group succeed.
+<div style="width: 100%; height: 750px; border: 2px solid #555; overflow: hidden; margin: 20px 0;">
+  <iframe
+    src="{{'classes/know_thy_enemy/leadership_styles_drk.pdf' | relative_url }}"
+    width="100%"
+    height="100%"
+    style="border: none;"
+    title="Z-Team Assignment 1 PDF">
+  </iframe>
+</div>
 
 ---
 
