@@ -1,200 +1,443 @@
-/* General Styling */
-body {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: #333; /* Dark background */
-    color: #fff; /* White text */
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+/* =========================================================
+Army Camo Palette
+========================================================= */
+:root {
+--camo-brown: #604439;
+--camo-tan: #9e9a75;
+--camo-night: #1c222e;
+--camo-green: #41533b;
+--camo-charcoal: #554840;
+
+```
+--text-main: #f0ead6;
+--text-muted: #d8d0aa;
+--link-main: #d2d0aa;
+--link-hover: #ffffff;
+
+--border-main: #9e9a75;
+--shadow-main: rgba(0, 0, 0, 0.6);
+```
+
 }
 
-/* Right-side fixed navigation bar */
+/* =========================================================
+General Styling
+========================================================= */
+body {
+font-family: 'Courier New', Courier, monospace;
+background-color: var(--camo-night);
+color: var(--text-main);
+margin: 0;
+padding: 0;
+line-height: 1.6;
+}
+
+/* =========================================================
+Right-side fixed navigation bar
+========================================================= */
 nav {
-    position: fixed;
-    right: 0;
-    top: 0;
-    width: 200px;
-    height: 100vh;
-    background-color: #111; /* Dark background for nav */
-    color: #fff;
-    padding: 20px 10px;
-    overflow-y: auto; /* Allows scrolling within the navigation bar if needed */
-    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+position: fixed;
+right: 0;
+top: 0;
+width: 200px;
+height: 100vh;
+background-color: var(--camo-green);
+color: var(--text-main);
+padding: 20px 10px;
+overflow-y: auto;
+box-shadow: -2px 0 5px var(--shadow-main);
 }
 
 /* Header inside the navigation bar */
 nav h1 {
-    font-size: 1.5em;
-    margin-bottom: 20px;
+font-size: 1.5em;
+margin-bottom: 20px;
 }
 
 /* Styling links in navigation */
 nav a {
-    color: #9bf; /* Light blue links */
-    text-decoration: none;
-    display: block;
-    margin-bottom: 10px;
+color: var(--link-main);
+text-decoration: none;
+display: block;
+margin-bottom: 10px;
+font-weight: bold;
 }
 
 nav a:hover {
-    color: #ddf;
+color: var(--link-hover);
+text-decoration: underline;
 }
 
-/* Main Content */
+/* =========================================================
+Main Content
+========================================================= */
 .main-content {
-    margin-left: 270px; /* Push content to avoid left nav overlap */
-    margin-right: 220px; /* Account for right nav */
-    position: relative;
-    background-color: #222; /* Match page background */
-    z-index: 100;
-    padding: 20px;
-    max-width: calc(100% - 490px); /* Adjust width dynamically */
-    min-height: 100vh;
-    border: 10px solid #444;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+margin-left: 270px;
+margin-right: 220px;
+position: relative;
+background-color: var(--camo-brown);
+z-index: 100;
+padding: 20px;
+max-width: calc(100% - 490px);
+min-height: 100vh;
+border: 10px solid var(--camo-tan);
+box-shadow: 0 0 10px var(--shadow-main);
 }
 
-/* Ensure the left nav stays below the main content */
+/* =========================================================
+Left-side Table of Contents Navigation
+========================================================= */
 #left-nav {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 250px;
-    height: 100vh;
-    background: #111;
-    color: white;
-    padding: 15px;
-    overflow-y: auto;
-    border-right: 10px solid #444;
-    z-index: 50; /* Behind main content */
+position: fixed;
+left: 0;
+top: 0;
+width: 250px;
+height: 100vh;
+background: var(--camo-charcoal);
+color: var(--text-main);
+padding: 15px;
+overflow-y: auto;
+border-right: 10px solid var(--camo-tan);
+z-index: 50;
 }
 
-/* Improve readability of text */
+#left-nav h2 {
+color: var(--text-main);
+}
+
+#toc {
+padding-left: 15px;
+}
+
+#toc li {
+margin-bottom: 8px;
+}
+
+#toc a {
+color: var(--link-main);
+text-decoration: none;
+}
+
+#toc a:hover {
+color: var(--link-hover);
+text-decoration: underline;
+}
+
+#toc a.active {
+color: var(--link-hover);
+border-left: 4px solid var(--camo-tan);
+padding-left: 6px;
+}
+
+/* =========================================================
+Text Readability
+========================================================= */
 p, li, h1, h2, h3, h4, h5, h6 {
-    color: #ddd; /* Light grey for better readability */
+color: var(--text-main);
 }
 
-/* Walkthrough Section */
+small, blockquote {
+color: var(--text-muted);
+}
+
+blockquote {
+border-left: 4px solid var(--camo-tan);
+padding-left: 15px;
+margin-left: 0;
+}
+
+/* =========================================================
+Global hyperlink color settings
+========================================================= */
+a, a:visited, a:active {
+color: var(--link-main);
+text-decoration: none;
+font-weight: bold;
+}
+
+a:hover {
+color: var(--link-hover);
+text-decoration: underline;
+}
+
+/* =========================================================
+Horizontal Rules / Section Breaks
+========================================================= */
+.main-content hr {
+margin: 80px 0;
+border: 0;
+border-top: 2px solid var(--camo-tan);
+}
+
+/* Optional class if you want a named divider */
+.section-break {
+margin: 80px 0;
+border: 0;
+border-top: 2px solid var(--camo-tan);
+}
+
+/* =========================================================
+Walkthrough Section
+========================================================= */
 .walkthrough-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 20px 0;
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+margin: 20px 0;
 }
 
 .walkthrough-text, .walkthrough-video {
-    flex: 1;
-    min-width: 300px;
+flex: 1;
+min-width: 300px;
 }
 
 .walkthrough-video iframe {
+width: 100%;
+height: auto;
+}
+
+/* =========================================================
+Images and Embeds
+========================================================= */
+.main-content img {
+max-width: 100%;
+height: auto;
+}
+
+.main-content iframe {
+max-width: 100%;
+}
+
+/* Useful wrapper for PDF or webpage embeds */
+.embed-box {
+width: 100%;
+height: 750px;
+border: 2px solid var(--camo-tan);
+overflow: hidden;
+margin: 20px 0;
+background-color: var(--camo-night);
+}
+
+.embed-box iframe {
+width: 100%;
+height: 100%;
+border: none;
+}
+
+/* =========================================================
+Scrollable Code Block Styling
+========================================================= */
+.scroll-box {
+background-color: var(--camo-night);
+color: var(--text-main);
+padding: 10px;
+margin: 10px 0;
+border: 1px solid var(--camo-tan);
+border-radius: 5px;
+font-family: 'Courier New', Courier, monospace;
+font-size: 14px;
+overflow-x: auto;
+max-width: 100%;
+white-space: pre-wrap;
+word-wrap: break-word;
+display: block;
+}
+
+.terminal {
+background-color: var(--camo-night);
+color: var(--text-main);
+padding: 10px;
+margin: 10px 0;
+border-radius: 5px;
+border: 1px solid var(--camo-tan);
+font-family: Consolas, "Courier New", monospace;
+font-size: 14px;
+line-height: 1.4;
+overflow-x: auto;
+max-width: 100%;
+white-space: pre-wrap;
+word-break: break-word;
+box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+/* Code blocks created by Markdown */
+pre {
+background-color: var(--camo-night);
+color: var(--text-main);
+padding: 10px;
+border: 1px solid var(--camo-tan);
+border-radius: 5px;
+overflow-x: auto;
+}
+
+code {
+color: var(--text-muted);
+}
+
+/* =========================================================
+Vertical Spacing Helpers
+========================================================= */
+.gap-small,
+.gap-medium,
+.gap-large {
+display: block;
+clear: both;
+width: 100%;
+}
+
+.gap-small {
+min-height: 90px;
+}
+
+.gap-medium {
+min-height: 180px;
+}
+
+.gap-large {
+min-height: 360px;
+}
+
+/* =========================================================
+Table Styling
+========================================================= */
+.main-content table {
+width: 100%;
+border-collapse: collapse;
+margin: 25px 0;
+background-color: var(--camo-charcoal);
+border: 2px solid var(--camo-tan);
+}
+
+.main-content th,
+.main-content td {
+border: 1px solid var(--camo-tan);
+padding: 12px 15px;
+text-align: left;
+vertical-align: top;
+}
+
+.main-content th {
+background-color: var(--camo-night);
+color: var(--text-main);
+font-weight: bold;
+}
+
+.main-content td {
+color: var(--text-main);
+}
+
+.main-content tr:nth-child(even) {
+background-color: var(--camo-green);
+}
+
+/* =========================================================
+Agenda List Styling
+========================================================= */
+.agenda-list {
+list-style-type: none;
+padding-left: 0;
+margin: 20px 0;
+}
+
+.agenda-list li {
+padding: 10px 12px;
+margin-bottom: 8px;
+background-color: var(--camo-charcoal);
+border-left: 4px solid var(--camo-tan);
+}
+
+.agenda-time {
+font-weight: bold;
+color: var(--text-main);
+}
+
+/* =========================================================
+Buttons / Link Cards
+========================================================= */
+.button-link {
+display: inline-block;
+margin: 8px 8px 8px 0;
+padding: 10px 14px;
+border: 1px solid var(--camo-tan);
+background: var(--camo-green);
+color: var(--link-hover);
+text-decoration: none;
+}
+
+.button-link:hover {
+background: var(--camo-charcoal);
+color: var(--link-hover);
+text-decoration: underline;
+}
+
+/* =========================================================
+Mobile Styles
+========================================================= */
+@media screen and (max-width: 768px) {
+/* Hide left-side TOC navigation */
+#left-nav {
+display: none !important;
+visibility: hidden;
+position: absolute;
+left: -9999px;
+}
+
+```
+/* Make main content full width */
+.main-content {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 100%;
+    padding: 15px;
+    border-width: 6px;
+}
+
+/* Adjust right navigation */
+nav {
     width: 100%;
     height: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: var(--camo-green);
+    box-shadow: 0 2px 5px var(--shadow-main);
+    overflow: hidden;
 }
-/* Global hyperlink color settings */
-a, a:visited, a:hover, a:active {
-    color: #9bf; /* Light blue for all links */
-    text-decoration: none; /* Removes underline */
+
+/* Stack navigation links horizontally */
+nav a {
+    display: inline-block;
+    padding: 6px 8px;
+    font-size: 13px;
+    margin: 4px;
+    text-align: center;
+    white-space: nowrap;
 }
 
-/* Make hover effect slightly brighter */
-a:hover {
-    color: #ddf; /* Lighter blue on hover */
+nav h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
 }
-        /* ===== Scrollable Code Block Styling ===== */
-    .scroll-box {
-        background-color: #1e1e1e; /* Dark background for contrast */
-        color: #9bf; /* Light blue text */
-        padding: 10px;
-        margin: 10px 0;
-        border: 1px solid #444;
-        border-radius: 5px;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 14px;
-        overflow-x: auto; /* Enables horizontal scrolling */
-        max-width: 100%; /* Prevents bleeding */
-        white-space: pre-wrap; /* Wraps lines properly */
-        word-wrap: break-word; /* Breaks long words to prevent overflow */
-        display: block;
-    }
-    
-    .terminal {
-        background-color: #0c0c0c;              /* True terminal black */
-        color: #d4d4d4;                         /* Neutral terminal text */
-        padding: 10px;
-        margin: 10px 0;
-        border-radius: 5px;
-        border: 1px solid #333;
-        font-family: Consolas, "Courier New", monospace;
-        font-size: 14px;
-        line-height: 1.4;
-        overflow-x: auto;
-        max-width: 100%;
-        white-space: pre-wrap;
-        word-break: break-word;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-    }
-  
-    .gap-small,
-    .gap-medium,
-    .gap-large {
-        display: block;
-        clear: both;
-        width: 100%;
-    }
-    
-    .gap-small {
-        min-height: 90px;
-    }
-    
-    .gap-medium {
-        min-height: 180px;
-    }
-    
-    .gap-large {
-        min-height: 360px;
-    }
 
-/* Mobile Styles */
-@media screen and (max-width: 768px) {
-    /* Hide left-side TOC navigation */
-    #left-nav {
-        display: none !important;
-        visibility: hidden;
-        position: absolute;
-        left: -9999px;
-    }
+.embed-box {
+    height: 600px;
+}
 
-    /* Make main content full width */
-    .main-content {
-        margin: 0 auto; /* Center content */
-        width: 90%; /* Provide some margin on small screens */
-        max-width: 100%;
-        padding: 15px;
-    }
+.gap-small {
+    min-height: 45px;
+}
 
-    /* Adjust right navigation */
-    nav {
-        width: 100%;
-        height: auto;
-        position: relative;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        padding: 10px;
-        background: #222;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
-        overflow: hidden; /* Prevents excessive space usage */
-    }
+.gap-medium {
+    min-height: 90px;
+}
 
-    /* Stack navigation links horizontally */
-    nav a {
-        display: inline-block;
-        padding: 6px 8px;
-        font-size: 13px;
-        margin: 4px;
-        text-align: center;
-        white-space: nowrap; /* Prevents wrapping */
-    }
+.gap-large {
+    min-height: 180px;
+}
+```
+
 }
