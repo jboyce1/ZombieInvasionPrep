@@ -1,7 +1,7 @@
 ---
 
 layout: default
-title: Know Thy Enemy Class 2
+title: Know Thy Enemy 2
 ---
 -------------------------
 
