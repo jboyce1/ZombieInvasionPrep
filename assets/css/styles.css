@@ -9,13 +9,17 @@ Army Camo Palette
 --camo-charcoal: #554840;
 
 ```
---text-main: #f0ead6;
---text-muted: #d8d0aa;
---link-main: #d2d0aa;
---link-hover: #ffffff;
+--black: #050505;
 
---border-main: #9e9a75;
---shadow-main: rgba(0, 0, 0, 0.6);
+/* Not white, not tan: pale field-map green for readable text */
+--text-main: #d7dec8;
+--text-muted: #bfc8b1;
+--text-heading: #e1e6d5;
+
+--link-main: #c9c49a;
+--link-hover: #ebe5bd;
+
+--shadow-main: rgba(0, 0, 0, 0.65);
 ```
 
 }
@@ -52,12 +56,16 @@ box-shadow: -2px 0 5px var(--shadow-main);
 nav h1 {
 font-size: 1.5em;
 margin-bottom: 20px;
+color: var(--text-heading);
 }
 
 /* Styling links in navigation */
 nav a {
 color: var(--link-main);
-text-decoration: none;
+text-decoration: underline;
+text-decoration-color: var(--black);
+text-decoration-thickness: 2px;
+text-underline-offset: 4px;
 display: block;
 margin-bottom: 10px;
 font-weight: bold;
@@ -65,7 +73,7 @@ font-weight: bold;
 
 nav a:hover {
 color: var(--link-hover);
-text-decoration: underline;
+text-decoration-color: var(--black);
 }
 
 /* =========================================================
@@ -80,7 +88,7 @@ z-index: 100;
 padding: 20px;
 max-width: calc(100% - 490px);
 min-height: 100vh;
-border: 10px solid var(--camo-tan);
+border: 10px solid var(--black);
 box-shadow: 0 0 10px var(--shadow-main);
 }
 
@@ -93,47 +101,61 @@ left: 0;
 top: 0;
 width: 250px;
 height: 100vh;
-background: var(--camo-charcoal);
+background: var(--camo-green);
 color: var(--text-main);
 padding: 15px;
 overflow-y: auto;
-border-right: 10px solid var(--camo-tan);
+border-right: 10px solid var(--black);
 z-index: 50;
 }
 
 #left-nav h2 {
-color: var(--text-main);
+color: var(--text-heading);
+margin-top: 0;
 }
 
+/* Remove the bullet/star look from Phase Lines */
 #toc {
-padding-left: 15px;
+list-style-type: none;
+padding-left: 0;
+margin-left: 0;
 }
 
 #toc li {
+list-style-type: none;
 margin-bottom: 8px;
+padding-left: 0;
 }
 
 #toc a {
 color: var(--link-main);
-text-decoration: none;
+text-decoration: underline;
+text-decoration-color: var(--black);
+text-decoration-thickness: 2px;
+text-underline-offset: 4px;
+font-weight: bold;
 }
 
 #toc a:hover {
 color: var(--link-hover);
-text-decoration: underline;
+text-decoration-color: var(--black);
 }
 
 #toc a.active {
 color: var(--link-hover);
-border-left: 4px solid var(--camo-tan);
+border-left: 4px solid var(--black);
 padding-left: 6px;
 }
 
 /* =========================================================
 Text Readability
 ========================================================= */
-p, li, h1, h2, h3, h4, h5, h6 {
+p, li {
 color: var(--text-main);
+}
+
+h1, h2, h3, h4, h5, h6 {
+color: var(--text-heading);
 }
 
 small, blockquote {
@@ -141,7 +163,7 @@ color: var(--text-muted);
 }
 
 blockquote {
-border-left: 4px solid var(--camo-tan);
+border-left: 4px solid var(--black);
 padding-left: 15px;
 margin-left: 0;
 }
@@ -151,13 +173,16 @@ Global hyperlink color settings
 ========================================================= */
 a, a:visited, a:active {
 color: var(--link-main);
-text-decoration: none;
+text-decoration: underline;
+text-decoration-color: var(--black);
+text-decoration-thickness: 2px;
+text-underline-offset: 4px;
 font-weight: bold;
 }
 
 a:hover {
 color: var(--link-hover);
-text-decoration: underline;
+text-decoration-color: var(--black);
 }
 
 /* =========================================================
@@ -166,14 +191,13 @@ Horizontal Rules / Section Breaks
 .main-content hr {
 margin: 80px 0;
 border: 0;
-border-top: 2px solid var(--camo-tan);
+border-top: 2px solid var(--black);
 }
 
-/* Optional class if you want a named divider */
 .section-break {
 margin: 80px 0;
 border: 0;
-border-top: 2px solid var(--camo-tan);
+border-top: 2px solid var(--black);
 }
 
 /* =========================================================
@@ -212,7 +236,7 @@ max-width: 100%;
 .embed-box {
 width: 100%;
 height: 750px;
-border: 2px solid var(--camo-tan);
+border: 2px solid var(--black);
 overflow: hidden;
 margin: 20px 0;
 background-color: var(--camo-night);
@@ -232,7 +256,7 @@ background-color: var(--camo-night);
 color: var(--text-main);
 padding: 10px;
 margin: 10px 0;
-border: 1px solid var(--camo-tan);
+border: 1px solid var(--black);
 border-radius: 5px;
 font-family: 'Courier New', Courier, monospace;
 font-size: 14px;
@@ -249,7 +273,7 @@ color: var(--text-main);
 padding: 10px;
 margin: 10px 0;
 border-radius: 5px;
-border: 1px solid var(--camo-tan);
+border: 1px solid var(--black);
 font-family: Consolas, "Courier New", monospace;
 font-size: 14px;
 line-height: 1.4;
@@ -265,7 +289,7 @@ pre {
 background-color: var(--camo-night);
 color: var(--text-main);
 padding: 10px;
-border: 1px solid var(--camo-tan);
+border: 1px solid var(--black);
 border-radius: 5px;
 overflow-x: auto;
 }
@@ -305,12 +329,12 @@ width: 100%;
 border-collapse: collapse;
 margin: 25px 0;
 background-color: var(--camo-charcoal);
-border: 2px solid var(--camo-tan);
+border: 2px solid var(--black);
 }
 
 .main-content th,
 .main-content td {
-border: 1px solid var(--camo-tan);
+border: 1px solid var(--black);
 padding: 12px 15px;
 text-align: left;
 vertical-align: top;
@@ -318,7 +342,7 @@ vertical-align: top;
 
 .main-content th {
 background-color: var(--camo-night);
-color: var(--text-main);
+color: var(--text-heading);
 font-weight: bold;
 }
 
@@ -343,12 +367,12 @@ margin: 20px 0;
 padding: 10px 12px;
 margin-bottom: 8px;
 background-color: var(--camo-charcoal);
-border-left: 4px solid var(--camo-tan);
+border-left: 4px solid var(--black);
 }
 
 .agenda-time {
 font-weight: bold;
-color: var(--text-main);
+color: var(--text-heading);
 }
 
 /* =========================================================
@@ -358,16 +382,19 @@ Buttons / Link Cards
 display: inline-block;
 margin: 8px 8px 8px 0;
 padding: 10px 14px;
-border: 1px solid var(--camo-tan);
+border: 2px solid var(--black);
 background: var(--camo-green);
-color: var(--link-hover);
-text-decoration: none;
+color: var(--link-main);
+text-decoration: underline;
+text-decoration-color: var(--black);
+text-decoration-thickness: 2px;
+text-underline-offset: 4px;
 }
 
 .button-link:hover {
 background: var(--camo-charcoal);
 color: var(--link-hover);
-text-decoration: underline;
+text-decoration-color: var(--black);
 }
 
 /* =========================================================
