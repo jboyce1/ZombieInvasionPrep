@@ -1,7 +1,9 @@
 ---
 
 layout: default
-title: Module 1.1 Class 3
+title: Know thy Enemy 3
+---
+
 -------------------------
 
 # Know thy Enemy 3
