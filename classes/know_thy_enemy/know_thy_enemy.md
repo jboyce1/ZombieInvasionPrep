@@ -29,7 +29,7 @@ title: M1.1 What is a Zombie?
 * Modified Bowline
 * Respond to Heat Injury
   
-## Classes
+# Classes
 * [Know Thy Enemy Class 1]({{ '/classes/know_thy_enemy/class1' | relative_url }})
 * [Know Thy Enemy Class 2]({{ '/classes/know_thy_enemy/class2' | relative_url }})
 * [Know Thy Enemy Class 3]({{ '/classes/know_thy_enemy/class3' | relative_url }})
