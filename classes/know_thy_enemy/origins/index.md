@@ -2,6 +2,7 @@
 
 layout: default
 title: Should We Call a Zombie a Zombie?
+---
 ----------------------------------------
 
 # Should We Call a Zombie a Zombie?
