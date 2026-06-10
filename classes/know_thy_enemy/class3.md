@@ -46,7 +46,7 @@ In this skill section, pay attention to:
 * when to stop activity
 * when to get help
 
-[Heat Injury Skill Page]({{ '/skills/medical/heat_injury/' | relative_url }})
+[Heat Injury Reference]({{ 'skills/medical/heat_injury/Heat_Related_Illness.pdf' | relative_url }})
 
 [Heat Injury Skill Page]({{ '/skills/medical/heat_injury/' | relative_url }})
 
@@ -66,7 +66,7 @@ As groups present, listen for:
 
 * what kind of zombie they created
 * what makes the zombie dangerous
-* what real-world or historical ideas influenced the design
+* what real-world or historical ideas are present
 * how the group used evidence or examples
 * how clearly the group communicates its argument
 
