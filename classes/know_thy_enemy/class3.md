@@ -88,7 +88,7 @@ It is a starting point for thinking about how you may naturally act in groups, e
 
 After submitting your answers, be ready to think about how personality connects to leadership, communication, conflict, and group survival.
 
-https://bigfive-test.com/test
+
 <a href="https://bigfive-test.com/test" target="_blank" rel="noopener noreferrer">Take the big-five test</a>
 
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZJC2UCP4ZR7HfDXrVZoowGWVIvjrbcL7TeW-A8NA94Z4a7g/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Submit your results</a>
