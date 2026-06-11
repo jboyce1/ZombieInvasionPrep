@@ -395,3 +395,5 @@ Consider:
 Your reflection does not need to be shared.
 
 The goal is to think honestly.
+
+Now develop your own scenerio that would be difficult to answer. Consider what struck a cord with you and develop a situation that hits it harder. You scenerio may be used in further discussions or with other classes.
