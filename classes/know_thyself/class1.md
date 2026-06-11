@@ -8,10 +8,15 @@ title: M1.2 Why Are Zombies Scary?
 # M1.2 Why Are Zombies Scary?
 
 **Module**: Know Thyself
+
 **Class**: Class 1
+
 **Focus**: sacred/profane, moral decision-making, survival ethics
+
 **Skill**: Resection
+
 **Activity**: Sacred and Profane discussion, emergency ethics deliberation
+
 
 ---
 
