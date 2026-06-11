@@ -2,6 +2,7 @@
 
 layout: default
 title: M1.2 Why Are Zombies Scary?
+---
 ----------------------------------
 
 # M1.2 Why Are Zombies Scary?
@@ -104,7 +105,7 @@ Something can be sacred at one level and not sacred at another.
 Something can also be profane, meaning it is not treated as sacred at any of those levels.
 
 <div style="text-align: center;">
-  <img src="{{ '/classes/know_thy_self/sacred_profane_venn.webp' | relative_url }}" alt="Sacred and Profane Venn Diagram" style="max-width: 90%; height: auto;">
+  <img src="{{ '/classes/know_thy_self/sacred_profane_diagram.webp' | relative_url }}" alt="Sacred and Profane Venn Diagram" style="max-width: 90%; height: auto;">
 </div>
 
 ---
