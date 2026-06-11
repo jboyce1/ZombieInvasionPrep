@@ -468,3 +468,14 @@ nav h1 {
 ```
 
 }
+/* Navigation section labels */
+.nav-label {
+    color: var(--text-heading);
+    font-size: 1.05em;
+    margin-top: 28px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid var(--black);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
