@@ -446,6 +446,98 @@ text-decoration: none;
 }
 
 /* =========================================================
+Uncanny Valley Full-screen Presentation
+========================================================= */
+
+.valley-launch {
+display: inline-block;
+margin: 12px 0 20px;
+padding: 12px 18px;
+border: 2px solid var(--section-line);
+background: var(--bg-nav);
+color: var(--link-main);
+font: bold 1rem 'Courier New', Courier, monospace;
+cursor: pointer;
+box-shadow: 3px 3px 0 var(--black);
+}
+
+.valley-launch:hover,
+.valley-launch:focus-visible {
+background: var(--bg-card-alt);
+color: var(--link-hover);
+}
+
+.valley-presentation[hidden] {
+display: none;
+}
+
+.valley-presentation {
+position: fixed;
+inset: 0;
+z-index: 10000;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100vw;
+height: 100vh;
+height: 100dvh;
+overflow: hidden;
+background: #000;
+cursor: pointer;
+user-select: none;
+}
+
+.valley-presentation:focus {
+outline: none;
+}
+
+.valley-slide {
+display: block;
+width: 100%;
+height: 100%;
+max-width: none !important;
+object-fit: contain;
+border: 0 !important;
+}
+
+.valley-slide.is-black {
+visibility: hidden;
+}
+
+.valley-exit {
+position: absolute;
+left: 50%;
+bottom: max(12px, env(safe-area-inset-bottom));
+transform: translateX(-50%);
+z-index: 1;
+padding: 5px 10px;
+border: 1px solid #777;
+border-radius: 2px;
+background: rgba(20, 20, 20, 0.65);
+color: #aaa;
+font: 12px 'Courier New', Courier, monospace;
+letter-spacing: 0.04em;
+cursor: pointer;
+opacity: 0.65;
+}
+
+.valley-exit:hover,
+.valley-exit:focus-visible {
+color: #ddd;
+border-color: #aaa;
+opacity: 1;
+}
+
+.valley-status {
+position: absolute;
+width: 1px;
+height: 1px;
+overflow: hidden;
+clip: rect(0 0 0 0);
+white-space: nowrap;
+}
+
+/* =========================================================
 Emergency / Warning Utility Classes
 Use manually in Markdown/HTML if desired.
 ========================================================= */

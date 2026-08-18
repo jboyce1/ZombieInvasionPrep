@@ -70,20 +70,30 @@ As you work:
 
 View the presentation one image at a time. Move forward only when the class is ready for the next image.
 
-For the largest presentation view, open the deck in a new tab and use the browser PDF viewer's **full-screen** or **presentation** control.
+<button
+  type="button"
+  class="valley-launch"
+  id="valley-launch"
+  aria-haspopup="dialog">
+  Welcome to the Valley
+</button>
 
-[Open the Uncanny Valley presentation full screen]({{ '/classes/know_thyself/files/uncanny-valley-slides.pdf' | relative_url }}){:target="_blank" rel="noopener noreferrer"}
-
-<div style="text-align: center; margin: 20px 0;">
-  <iframe
-    src="{{ '/classes/know_thyself/files/uncanny-valley-slides.pdf' | relative_url }}#page=1&view=FitH"
-    title="Uncanny Valley image presentation"
-    width="100%"
-    height="650"
-    allowfullscreen
-    style="border: 2px solid #6f7668; background: #000;">
-  </iframe>
+<div
+  class="valley-presentation"
+  id="valley-presentation"
+  data-slide-root="{{ '/classes/know_thyself/files/uncanny-valley-slides' | relative_url }}"
+  data-slide-count="20"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Uncanny Valley presentation"
+  tabindex="-1"
+  hidden>
+  <img class="valley-slide" id="valley-slide" alt="Presentation slide">
+  <button type="button" class="valley-exit" id="valley-exit">Exit the Valley</button>
+  <div class="valley-status" id="valley-status" aria-live="polite"></div>
 </div>
+
+<script src="{{ '/assets/js/uncanny-valley.js' | relative_url }}" defer></script>
 
 [Download the Uncanny Valley presentation (PDF)]({{ '/classes/know_thyself/files/uncanny-valley-slides.pdf' | relative_url }}){:download="uncanny-valley-slides.pdf"}
 
