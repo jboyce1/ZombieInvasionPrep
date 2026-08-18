@@ -20,7 +20,7 @@ title: M1.2 Class 2 — The Uncanny Valley
 
 ## Essential Question
 
-**How does the uncanny valley shape our response to zombies and other human-like figures?**
+**How does the uncanny valley shape our response to zombies and other liminal figures?**
 
 ---
 
@@ -59,8 +59,6 @@ As you work:
 * identify known points and take careful bearings
 * communicate one clear piece of information at a time
 * repeat back critical information to confirm that it was received correctly
-* use agreed-upon labels for locations, bearings, and team members
-* verify your intersection before reporting a final location
 
 ---
 
@@ -68,7 +66,7 @@ As you work:
 
 ### `1020–1040`
 
-View the presentation one image at a time. Move forward only when the class is ready for the next image.
+View the presentation one image at a time.
 
 <button
   type="button"
@@ -101,35 +99,35 @@ View the presentation one image at a time. Move forward only when the class is r
 
 # Instructions for Creating Your Uncanny Valley Graph
 
-## Step 1: Letter the Images
+### Step 1: Letter the Images
 
 Give every image a unique letter.
 
-## Step 2: Rank Your Emotional Response
+### Step 2: Rank Your Emotional Response
 
 Look at each image and decide how you feel about it. Arrange the images in order from the **creepiest**—those that make you feel the most uneasy—to those that give you the most **positive feelings**.
 
-## Step 3: Rank Human Likeness
+### Step 3: Rank Human Likeness
 
 Order the images again, this time based on how human-like they are. Start with images that have no human features at all and continue through those that look like a **happy, healthy human**.
 
-## Step 4: Build the X-Axis
+### Step 4: Build the X-Axis
 
 Take out your graph paper. On the X-axis—the horizontal axis—place the letters in the order you created in Step 3. Put the least human-like image on the left and the happy, healthy human on the right.
 
-## Step 5: Build the Y-Axis
+### Step 5: Build the Y-Axis
 
 On the Y-axis—the vertical axis—place the letters in the order you created in Step 2. Put the creepiest feelings at the bottom and the most positive feelings at the top.
 
-## Step 6: Plot Each Image
+### Step 6: Plot Each Image
 
 Find where each image's position on the two lists intersects and place a dot there. For example, if image F was third on both lists, find the third position on the X-axis and the third position on the Y-axis, then place a dot where they meet.
 
-## Step 7: Draw a Line of Best Fit
+### Step 7: Draw a Line of Best Fit
 
 Draw a line of best fit through your dots. The line should generally follow the trend of the data, but it does not need to connect every dot exactly.
 
-## Step 8: Analyze Your Graph
+### Step 8: Analyze Your Graph
 
 Look for a dip, or **valley**, in your line of best fit. This is your uncanny valley: the point where something becomes human-like enough to feel unsettling before the response becomes more comfortable as it approaches a healthy human appearance.
 
@@ -137,11 +135,12 @@ Look for a dip, or **valley**, in your line of best fit. This is your uncanny va
 
 # Discussion
 
-Discuss briefly with your group:
+Some guiding potential discussion questions:
 
 * When have you encountered a person, image, character, robot, or digital effect that may have fallen into the uncanny valley? What felt unsettling about it?
 * Where might zombies appear on your graph, and would all zombies appear in the same place?
-* How could the uncanny valley affect whether people recognize zombies as human, formerly human, or something else?
+* How could the uncanny valley impact discrimination to those with disease or deformities?
+* How might interactions with deep fakes and AI be impacted by the Uncanny Valley?
 * How might that reaction influence the way survivors treat zombies—or people they only suspect are becoming zombies?
 
 ---
@@ -175,7 +174,6 @@ Before the end of class:
 * identify every required product, graph, example, explanation, and citation
 * decide what the group wants its final product to communicate
 * assign initial roles and responsibilities
-* list any information or materials the group must gather before the next class
 * create a realistic order of work for completing the assignment
 * confirm that every group member understands the plan
 
