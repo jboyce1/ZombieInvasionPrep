@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Resection Abstract Introduction</title>
+<style>
+  @page { size: letter portrait; margin: .48in; }
+  * { box-sizing: border-box; }
+  body { margin: 0; color: #111; font-family: Arial, Helvetica, sans-serif; font-size: 10.5pt; line-height: 1.25; }
+  .page { width: 7.54in; min-height: 10in; margin: 0 auto; page-break-after: always; position: relative; }
+  .page:last-child { page-break-after: auto; }
+  h1 { margin: 0 0 .06in; text-align: center; font-size: 20pt; letter-spacing: .3px; }
+  h2 { margin: .12in 0 .06in; font-size: 14pt; border-bottom: 1.5px solid #222; padding-bottom: 2px; }
+  h3 { margin: .1in 0 .03in; font-size: 11.5pt; }
+  p { margin: .04in 0; }
+  .meta { display: flex; justify-content: space-between; margin: .08in 0 .12in; }
+  .fill { display: inline-block; border-bottom: 1px solid #222; min-width: 2.4in; height: .16in; }
+  .short { min-width: 1in; }
+  .box { border: 1.5px solid #333; padding: .08in .12in; margin: .07in 0; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: .14in; }
+  .directions { width: 100%; border-collapse: collapse; font-size: 9.3pt; }
+  .directions th, .directions td { border: 1px solid #777; padding: 3px 5px; text-align: center; }
+  .directions th { background: #e9edf0; }
+  ol { margin: .05in 0 0 .24in; padding: 0; }
+  li { margin: 0 0 .085in .04in; padding-left: .02in; }
+  .answer { display: inline-block; border-bottom: 1px solid #333; min-width: 1.1in; height: .15in; }
+  .wide { min-width: 2in; }
+  .workline { border-bottom: 1px solid #999; height: .3in; }
+  .small { font-size: 9pt; }
+  .map { display: block; width: 6.65in; height: 6.65in; margin: .06in auto; }
+  .plot-map { display: block; width: 6.25in; height: 6.25in; margin: .05in auto; }
+  .footer { position: absolute; bottom: .03in; width: 100%; text-align: center; color: #555; font-size: 8.5pt; }
+  .keep { break-inside: avoid; }
+  @media print { body { print-color-adjust: exact; } }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <h1>Resection: Abstract Introduction</h1>
+  <div class="meta"><span>Name/Group: <span class="fill"></span></span><span>Day: <span class="fill short"></span></span></div>
+
+  <div class="box">
+    <strong>Purpose.</strong> Resection finds your unknown position by using two or more visible landmarks whose positions are already known. Measure the azimuth <em>from you to each landmark</em>, convert each to a back azimuth, then draw those back-azimuth lines from the landmarks. Your position is where the lines intersect.
+  </div>
+
+  <div class="two">
+    <div>
+      <h2>Essential ideas</h2>
+      <p><strong>Azimuth:</strong> an angle measured clockwise from north, from 000° through 360°.</p>
+      <p><strong>Line of sight:</strong> the straight line between an observer and a visible landmark.</p>
+      <p><strong>Back azimuth:</strong> the same line viewed in the opposite direction.</p>
+      <div class="box"><strong>Back-azimuth rule</strong><br>If azimuth is less than 180°, add 180°.<br>If azimuth is 180° or greater, subtract 180°.<br>Use 000° rather than 360° when recording north.</div>
+    </div>
+    <div>
+      <h2>Direction–azimuth reference</h2>
+      <table class="directions">
+        <tr><th>Direction</th><th>Az.</th><th>Direction</th><th>Az.</th></tr>
+        <tr><td>N</td><td>000°</td><td>S</td><td>180°</td></tr>
+        <tr><td>NNE</td><td>022.5°</td><td>SSW</td><td>202.5°</td></tr>
+        <tr><td>NE</td><td>045°</td><td>SW</td><td>225°</td></tr>
+        <tr><td>ENE</td><td>067.5°</td><td>WSW</td><td>247.5°</td></tr>
+        <tr><td>E</td><td>090°</td><td>W</td><td>270°</td></tr>
+        <tr><td>ESE</td><td>112.5°</td><td>WNW</td><td>292.5°</td></tr>
+        <tr><td>SE</td><td>135°</td><td>NW</td><td>315°</td></tr>
+        <tr><td>SSE</td><td>157.5°</td><td>NNW</td><td>337.5°</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <h2>Landmark field</h2>
+  <p class="small">All later questions use this same field. Keep the page facing the direction shown by the north arrow. Measure from the center of each point.</p>
+  <svg class="map" viewBox="0 0 650 650" xmlns="http://www.w3.org/2000/svg" aria-label="Blank landmark field with points A through E">
+    <rect x="20" y="45" width="610" height="575" fill="white" stroke="#111" stroke-width="2"/>
+    <g transform="translate(325 0)" font-family="Arial" font-weight="700"><text x="0" y="18" text-anchor="middle" font-size="19">N</text><path d="M0 42 L-8 24 L0 29 L8 24Z"/><line x1="0" y1="42" x2="0" y2="45" stroke="#111" stroke-width="2"/></g>
+    <g font-family="Arial" font-size="23" font-weight="700" text-anchor="middle">
+      <circle cx="350" cy="95" r="7"/><text x="350" y="125">A</text>
+      <circle cx="181.5" cy="436.4" r="7"/><text x="181.5" y="469">B</text>
+      <circle cx="510" cy="95" r="7"/><text x="510" y="125">C</text>
+      <circle cx="350" cy="295" r="7"/><text x="373" y="303">D</text>
+      <circle cx="194.1" cy="205" r="7"/><text x="170" y="202">E</text>
+    </g>
+  </svg>
+  <div class="footer">Page 1 — Reference and landmark field</div>
+</section>
+
+<section class="page">
+  <h1>Direction and Azimuth Practice</h1>
+  <div class="meta"><span>Name/Group: <span class="fill"></span></span><span>Day: <span class="fill short"></span></span></div>
+  <div class="box"><strong>Directions:</strong> Use the landmark field on page 1. For every item, first name the closest cardinal, intercardinal, or secondary-intercardinal direction. Then measure and record the specific azimuth to the nearest degree. Do not estimate the azimuth from the direction name.</div>
+
+  <h2>Measure both forms</h2>
+  <ol>
+    <li>Point D is in which direction from A? Direction: <span class="answer"></span> Azimuth: <span class="answer"></span></li>
+    <li>Point A is in which direction from D? Direction: <span class="answer"></span> Azimuth: <span class="answer"></span></li>
+    <li>Point D is in which direction from B? Direction: <span class="answer"></span> Azimuth: <span class="answer"></span></li>
+    <li>Point B is in which direction from D? Direction: <span class="answer"></span> Azimuth: <span class="answer"></span></li>
+    <li>Point E is in which direction from D? Direction: <span class="answer"></span> Azimuth: <span class="answer"></span></li>
+    <li>Point D is in which direction from E? Direction: <span class="answer"></span> Azimuth: <span class="answer"></span></li>
+    <li>Point C is in which direction from A? Direction: <span class="answer"></span> Azimuth: <span class="answer"></span></li>
+    <li>Point A is in which direction from C? Direction: <span class="answer"></span> Azimuth: <span class="answer"></span></li>
+    <li>Point A is in which direction from B? Direction: <span class="answer"></span> Azimuth: <span class="answer"></span></li>
+    <li>Point E is in which direction from C? Direction: <span class="answer"></span> Azimuth: <span class="answer"></span></li>
+  </ol>
+
+  <h2>Back azimuths</h2>
+  <p>Calculate each answer. Show either “+180” or “−180” beside your result.</p>
+  <div class="two">
+    <ol>
+      <li>050° → <span class="answer"></span></li>
+      <li>300° → <span class="answer"></span></li>
+      <li>022° → <span class="answer"></span></li>
+      <li>151° → <span class="answer"></span></li>
+      <li>182° → <span class="answer"></span></li>
+    </ol>
+    <ol start="6">
+      <li>000° → <span class="answer"></span></li>
+      <li>090° → <span class="answer"></span></li>
+      <li>247° → <span class="answer"></span></li>
+      <li>330° → <span class="answer"></span></li>
+      <li>360° → <span class="answer"></span></li>
+    </ol>
+  </div>
+
+  <h2>Explain the relationship</h2>
+  <ol>
+    <li>Compare your azimuth from B to D with your azimuth from D to B. What mathematical relationship do you notice?<div class="workline"></div><div class="workline"></div></li>
+    <li>Why must a resection line be drawn using the <em>back</em> azimuth from the landmark rather than the measured azimuth to the landmark?<div class="workline"></div><div class="workline"></div></li>
+  </ol>
+  <div class="footer">Page 2 — Direction, azimuth, and back-azimuth practice</div>
+</section>
+
+<section class="page">
+  <h1>Locating Unknown Positions</h1>
+  <div class="meta"><span>Name/Group: <span class="fill"></span></span><span>Day: <span class="fill short"></span></span></div>
+  <div class="box"><strong>Directions:</strong> Plot each unknown position on the field below. Use a small circled number matching the question. Draw only the lines needed to find that position. Unless a question says “halfway” or “center,” locate the point by intersecting two lines of sight.</div>
+
+  <svg class="plot-map" viewBox="0 0 650 650" xmlns="http://www.w3.org/2000/svg" aria-label="Clean landmark field for plotting unknown positions">
+    <rect x="20" y="45" width="610" height="575" fill="white" stroke="#111" stroke-width="2"/>
+    <g transform="translate(325 0)" font-family="Arial" font-weight="700"><text x="0" y="18" text-anchor="middle" font-size="19">N</text><path d="M0 42 L-8 24 L0 29 L8 24Z"/><line x1="0" y1="42" x2="0" y2="45" stroke="#111" stroke-width="2"/></g>
+    <g font-family="Arial" font-size="23" font-weight="700" text-anchor="middle">
+      <circle cx="350" cy="95" r="7"/><text x="350" y="125">A</text>
+      <circle cx="181.5" cy="436.4" r="7"/><text x="181.5" y="469">B</text>
+      <circle cx="510" cy="95" r="7"/><text x="510" y="125">C</text>
+      <circle cx="350" cy="295" r="7"/><text x="373" y="303">D</text>
+      <circle cx="194.1" cy="205" r="7"/><text x="170" y="202">E</text>
+    </g>
+  </svg>
+
+  <ol>
+    <li>You are halfway between E and A. Plot your position and label it 1.</li>
+    <li>You are in the center of the triangle formed by E, B, and D—equally balanced among all three landmarks. Plot and label position 2.</li>
+    <li>You are due south of C and due east of D. Plot and label position 3.</li>
+  </ol>
+  <div class="footer">Page 3 — Spatial descriptions</div>
+</section>
+
+<section class="page">
+  <h1>Introductory Resection Challenges</h1>
+  <div class="meta"><span>Name/Group: <span class="fill"></span></span><span>Day: <span class="fill short"></span></span></div>
+  <div class="box"><strong>Field report:</strong> You are somewhere in the blank area. The bearings below were measured from your unknown position <em>to</em> visible landmarks. Convert them to back azimuths before drawing from the landmarks. Use the clean field on page 3 and label each solution with its question number.</div>
+
+  <h2>Two-landmark fixes</h2>
+  <ol start="4">
+    <li>You measure A at 018° and E at 293°. Plot and label position 4. Record the two back azimuths you drew: A <span class="answer"></span> E <span class="answer"></span></li>
+    <li>You measure C at 035° and D at 228°. Plot and label position 5. Record the two back azimuths: C <span class="answer"></span> D <span class="answer"></span></li>
+    <li>You measure B at 230° and E at 300°. Plot and label position 6. Record the two back azimuths: B <span class="answer"></span> E <span class="answer"></span></li>
+  </ol>
+
+  <h2>Direction-language fixes</h2>
+  <ol start="7">
+    <li>Landmark A is northwest of you. Landmark C is northeast of you. Plot and label position 7.</li>
+    <li>Landmark E is WNW of you. Landmark D is SSE of you. Plot and label position 8.</li>
+    <li>Landmark B is SSW of you. Landmark D is ENE of you. Plot and label position 9.</li>
+  </ol>
+
+  <h2>Mixed fixes</h2>
+  <ol start="10">
+    <li>Landmark A is due north of you. Your measured azimuth to B is 230°. Plot and label position 10.</li>
+    <li>Landmark E is northwest of you. Your measured azimuth to C is 045°. Plot and label position 11.</li>
+  </ol>
+
+  <h2>Reflection</h2>
+  <ol>
+    <li>Why do two lines of sight usually locate you better than one?<div class="workline"></div><div class="workline"></div></li>
+    <li>If two resection lines cross at a very shallow angle, how might a small measurement error affect the position you plot?<div class="workline"></div><div class="workline"></div></li>
+    <li>Which pair of landmarks on this field would give the strongest fix from the center, and why?<div class="workline"></div><div class="workline"></div></li>
+  </ol>
+  <div class="footer">Page 4 — Resection fixes and reflection</div>
+</section>
+
+</body>
+</html>
