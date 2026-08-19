@@ -13,6 +13,7 @@ title: M1.2 Why are Zombies Scary?
 * [Know Thyself Class 1]({{ '/classes/know_thyself/class1' | relative_url }})
 * [Know Thyself Class 2]({{ '/classes/know_thyself/class2' | relative_url }})
 * [Know Thyself Class 3]({{ '/classes/know_thyself/class3' | relative_url }})
+* [Know Thyself Class 4]({{ '/classes/know_thyself/class4' | relative_url }})
 
   
 Module 1.2 Why are Zombies Scary?
