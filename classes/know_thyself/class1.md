@@ -72,6 +72,8 @@ The basic idea:
 
 ## Resection Resources
 
+[Resection: Abstract Introduction]({{ 'skills/mapping/resection/resection abstract introdction.html' | relative_url }})
+
 [Land Navigation: Resection](https://www.land-navigation.com/resection.html){:target="_blank" rel="noopener noreferrer"}
 
 <div style="text-align: center;">

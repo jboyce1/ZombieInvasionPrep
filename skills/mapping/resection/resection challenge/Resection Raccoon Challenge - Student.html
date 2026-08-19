@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Resection Raccoon Challenge — Student</title>
+<style>
+  @page { size: letter portrait; margin: .5in; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 10.5pt/1.28 Arial, Helvetica, sans-serif; color: #111; }
+  .page { width: 7.5in; min-height: 9.95in; margin: auto; page-break-after: always; position: relative; }
+  .page:last-child { page-break-after: auto; }
+  h1 { text-align: center; margin: 0 0 .06in; font-size: 20pt; }
+  h2 { margin: .13in 0 .05in; padding-bottom: 2px; border-bottom: 1.5px solid #222; font-size: 13.5pt; }
+  p { margin: .04in 0; }
+  .meta { display: flex; justify-content: space-between; margin: .08in 0 .12in; }
+  .line { display: inline-block; min-width: 2.4in; height: .16in; border-bottom: 1px solid #222; }
+  .short { min-width: 1in; }
+  .box { border: 1.5px solid #333; padding: .08in .12in; margin: .07in 0; }
+  .mission { border-left: 5px solid #333; padding: .07in .13in; margin: .08in 0 .13in; background: #f1f3f4; }
+  .radio { font-family: "Courier New", monospace; font-size: 10pt; }
+  .answer { display: inline-block; min-width: 2.2in; height: .16in; border-bottom: 1px solid #444; }
+  .workline { height: .27in; border-bottom: 1px solid #aaa; }
+  ol { margin: .04in 0 0 .25in; padding: 0; }
+  li { margin-bottom: .07in; }
+  table { width: 100%; border-collapse: collapse; margin-top: .05in; }
+  th, td { border: 1px solid #777; padding: 5px; text-align: left; height: .29in; }
+  th { background: #e8ecef; }
+  .footer { position: absolute; bottom: .02in; width: 100%; text-align: center; color: #555; font-size: 8.5pt; }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <h1>Resection Raccoon Challenge</h1>
+  <div class="meta"><span>Team: <span class="line"></span></span><span>Day: <span class="line short"></span></span></div>
+
+  <div class="box"><strong>Equipment:</strong> <em>zombie_map_highlights — student copy.pdf</em>, compass or protractor, ruler, pencil, and radio.</div>
+  <div class="mission"><strong>Mission:</strong> Locate yourself and each missing Resection Raccoon. Measure azimuths clockwise from north. When given sightings from an unknown position, calculate the back azimuths and draw those lines from the named schools. Call <strong>ZULU MAIN</strong> only when your team has a defensible location.</div>
+
+  <h2>Radio report format</h2>
+  <p class="radio">“ZULU MAIN, this is [TEAM]. We have a location for [CALL SIGN]. The location is [DESCRIBE AND POINT OUT LOCATION]. Our fix used [LANDMARK 1] and [LANDMARK 2]. Over.”</p>
+
+  <h2>Challenge 1 — Locate your team</h2>
+  <p>You can see <strong>Langley High School at 331°</strong> and <strong>Brashear High School at 125°</strong>.</p>
+  <p>Plot your position and label it <strong>START</strong>. Call ZULU MAIN and report your location.</p>
+  <p>Back azimuth from Langley: <span class="answer"></span> Back azimuth from Brashear: <span class="answer"></span></p>
+  <div class="workline"></div><div class="workline"></div>
+
+  <h2>Challenge 2 — Resection Raccoon 1</h2>
+  <p>You hear a distress call from <strong>RESECTION RACCOON 1</strong>:</p>
+  <p class="radio">“I can see Prospect School at 111° and St. Margaret School at 231°. I do not know my location.”</p>
+  <p>Plot and label <strong>RR1</strong>. Call ZULU MAIN and report the location.</p>
+  <p>Back azimuth from Prospect: <span class="answer"></span> Back azimuth from St. Margaret: <span class="answer"></span></p>
+  <div class="workline"></div><div class="workline"></div>
+
+  <h2>Challenge 3 — Resection Raccoon 2</h2>
+  <p>You hear a distress call from <strong>RESECTION RACCOON 2</strong>:</p>
+  <p class="radio">“St. Margaret School is WSW of me. I can see Brashear High School at 110°.”</p>
+  <p>Plot and label <strong>RR2</strong>. Call ZULU MAIN and report the location.</p>
+  <p>WSW azimuth: <span class="answer"></span> Required drawing directions/back azimuths: <span class="answer"></span></p>
+  <div class="workline"></div><div class="workline"></div>
+  <div class="footer">Student page 1 of 2</div>
+</section>
+
+<section class="page">
+  <h1>Resection Raccoon Challenge</h1>
+  <div class="meta"><span>Team: <span class="line"></span></span><span>Day: <span class="line short"></span></span></div>
+
+  <h2>Challenge 4 — Resection Raccoon 3</h2>
+  <p>You hear a distress call from <strong>RESECTION RACCOON 3</strong>:</p>
+  <p class="radio">“Brashear High School is NE of me. St. Martin School is SSE of me. I do not know my location.”</p>
+  <p>Plot and label <strong>RR3</strong>. Call ZULU MAIN and report the location.</p>
+  <p>NE azimuth: <span class="answer"></span> SSE azimuth: <span class="answer"></span></p>
+  <p>Required drawing directions/back azimuths: <span class="answer"></span></p>
+  <div class="workline"></div><div class="workline"></div>
+
+  <h2>Challenge 5 — Interview Resection Raccoon 4</h2>
+  <p>RESECTION RACCOON 4 is lost and needs help. <strong>Call RR4 by radio.</strong> Ask for the minimum information needed to locate them. Record the information you request—do not assume you need every sighting they can provide.</p>
+  <table><tr><th>School/landmark</th><th>Reported azimuth</th><th>Back azimuth</th></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table>
+  <p>Plot and label <strong>RR4</strong>. Call ZULU MAIN and report the location.</p>
+  <div class="workline"></div><div class="workline"></div>
+
+  <h2>Challenge 6 — Interview Resection Raccoon 5</h2>
+  <p>RESECTION RACCOON 5 is lost and needs help. <strong>Call RR5 by radio.</strong> Ask for the minimum information needed to locate them. RR5 describes sightings using cardinal, intercardinal, or secondary-intercardinal directions rather than measured degrees.</p>
+  <table><tr><th>School/landmark</th><th>Reported direction</th><th>Azimuth/back azimuth</th></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr><tr><td></td><td></td><td></td></tr></table>
+  <p>Plot and label <strong>RR5</strong>. Call ZULU MAIN and report the location.</p>
+  <div class="workline"></div><div class="workline"></div>
+
+  <h2>Final check</h2>
+  <ol>
+    <li>Which two sightings gave your strongest intersection? Why?</li><div class="workline"></div>
+    <li>Which fix was least precise? Identify the likely source of uncertainty.</li><div class="workline"></div>
+  </ol>
+  <div class="footer">Student page 2 of 2</div>
+</section>
+
+</body>
+</html>
