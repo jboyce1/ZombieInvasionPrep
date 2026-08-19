@@ -2,3 +2,5 @@ title: Zombie Invasion Prep
 baseurl: "/ZombieInvasionPrep"
 url: "https://jboyce1.github.io"
 theme: minima
+exclude:
+  - classes/know_thy_past/_teacher
