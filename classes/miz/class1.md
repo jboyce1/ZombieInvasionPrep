@@ -26,7 +26,7 @@ title: M4 Class 1 — Humanity, Teams, and the MIZ Assignment
 * Analyze the MIZ rubric by applying it to previous student work.
 * Define a plausible modern or near-modern zombie scenario within the assignment constraints.
 * Assign initial project and Zombielympics responsibilities.
-* Build the beginning of a response plan extending through 240 minutes.
+* Create initial self-directed learning 240 minute plan.
 
 ---
 
@@ -40,7 +40,7 @@ title: M4 Class 1 — Humanity, Teams, and the MIZ Assignment
 * **1025–1040** — Introduce Mathematics in Zombieland and read the rubric
 * **1040–1100** — Review, score, and compare previous student work
 * **1100–1115** — Select the scenario and begin the 240-minute plan
-* **1115–1120** — Internal AAR and team-leader report
+* **1115–1120** — Determine areas of responsibility for the Skills in during the Zombilympics
 
 ---
 
@@ -61,15 +61,21 @@ Discuss:
 
 Each Z-Team will establish three brief operating agreements: how members will disagree, how they will ask for help, and how they will respond when someone falls behind.
 
+Problems will happen, stress will get to your group- if I do not see it happening, I will make it happen.
+* group recovery is the point
+* group strengthening is the point
+* clear communication is the point
+* following your own protocol is the point
+
 ---
 
-# A Mathematical View of a Zombie Outbreak
+# It starts
 
 ### `1015–1025`
 
 [Watch the BBC video](https://www.youtube.com/watch?v=XuKjBIBBAL8){:target="_blank" rel="noopener noreferrer"}
 
-While watching, identify what the model must define, what changes over time, and what assumptions cause the outcome to change. The video is a starting point for questioning a model—not an answer key for your project.
+This may not be how your groups zombies are made, but how might this situation play out for humanity? 
 
 ---
 
@@ -84,10 +90,15 @@ Your team will create a fictional outbreak, represent it with a mathematical mod
 Before leaving today, select a scenario that meets all of these conditions:
 
 * The initial human population is between **1,000 and 10,000,000**.
-* The setting is modern or reasonably near-modern: no earlier than the World War II era and no more than 100 years in the future.
+* The setting is modern or reasonably near-modern: no earlier than the World War II era and no more than 30 years in the future.
 * The initial zombie population is small—less than **0.01 of the human population**.
-* The zombie type is explicitly defined. Its behavior must justify the rates used in the model.
-* The response plan covers the first **240 minutes**.
+* The zombie type is explicitly defined. (Its behavior must justify the rates used in the model)
+
+Before leaving today your group should have the following on your **initial 240 minute plan**:
+
+* Overarching plan
+* Task list
+* Individual assignments
 
 ## Assignment Resources
 
@@ -114,7 +125,7 @@ Your team should have:
 * a setting, population, timeframe, and initial zombie count
 * a defined zombie type
 * a preliminary event at minute 0
-* meaningful developments planned through minute 240
+* initial 240 minute plan
 * initial project roles and Zombielympics practice roles
 
 ---
