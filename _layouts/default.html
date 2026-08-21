@@ -11,13 +11,60 @@
     <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
 
     <h2 class="nav-label">Modules</h2>
-    <a href="{{ '/classes/know_thy_enemy/know_thy_enemy' | relative_url }}">Know Thy Enemy</a>
-    <a href="{{ '/classes/prepare_thyself/prepare_thyself' | relative_url }}">Prepare Thyself</a>
-    <a href="{{ '/classes/know_thyself/know_thyself' | relative_url }}">Know Thyself</a>
-    <a href="{{ '/classes/know_thy_past/know_thy_past' | relative_url }}">Know Thy Past</a>
-    <a href="{{ '/classes/know_thy_topos/know_thy_topos' | relative_url }}">Know Thy Topos</a>
-    <a href="{{ '/classes/miz/miz' | relative_url }}">Mathematics in Zombieland</a>
-    <a href="{{ '/classes/prepare_your_society/prepare_your_society' | relative_url }}">Prepare Your Society</a>
+    <div class="module-nav-group">
+      <a class="module-nav-title" href="{{ '/classes/know_thy_enemy/know_thy_enemy' | relative_url }}">Know Thy Enemy</a>
+      <div class="module-class-links" aria-label="Know Thy Enemy classes">
+        <a href="{{ '/classes/know_thy_enemy/class1' | relative_url }}" title="Know Thy Enemy Class 1">I</a>
+        <a href="{{ '/classes/know_thy_enemy/class2' | relative_url }}" title="Know Thy Enemy Class 2">II</a>
+        <a href="{{ '/classes/know_thy_enemy/class3' | relative_url }}" title="Know Thy Enemy Class 3">III</a>
+      </div>
+    </div>
+    <div class="module-nav-group">
+      <a class="module-nav-title" href="{{ '/classes/prepare_thyself/prepare_thyself' | relative_url }}">Prepare Thyself</a>
+      <div class="module-class-links" aria-label="Prepare Thyself classes">
+        <a href="{{ '/classes/prepare_thyself/class1' | relative_url }}" title="Prepare Thyself Class 1">I</a>
+        <a href="{{ '/classes/prepare_thyself/class2' | relative_url }}" title="Prepare Thyself Class 2">II</a>
+        <a href="{{ '/classes/prepare_thyself/class3' | relative_url }}" title="Prepare Thyself Class 3">III</a>
+      </div>
+    </div>
+    <div class="module-nav-group">
+      <a class="module-nav-title" href="{{ '/classes/know_thyself/know_thyself' | relative_url }}">Know Thyself</a>
+      <div class="module-class-links" aria-label="Know Thyself classes">
+        <a href="{{ '/classes/know_thyself/class1' | relative_url }}" title="Know Thyself Class 1">I</a>
+        <a href="{{ '/classes/know_thyself/class2' | relative_url }}" title="Know Thyself Class 2">II</a>
+        <a href="{{ '/classes/know_thyself/class3' | relative_url }}" title="Know Thyself Class 3">III</a>
+        <a href="{{ '/classes/know_thyself/class4' | relative_url }}" title="Know Thyself Class 4">IV</a>
+      </div>
+    </div>
+    <div class="module-nav-group">
+      <a class="module-nav-title" href="{{ '/classes/know_thy_past/know_thy_past' | relative_url }}">Know Thy Past</a>
+      <div class="module-class-links" aria-label="Know Thy Past classes">
+        <a href="{{ '/classes/know_thy_past/class1' | relative_url }}" title="Know Thy Past Class 1">I</a>
+        <a href="{{ '/classes/know_thy_past/class2' | relative_url }}" title="Know Thy Past Class 2">II</a>
+        <a href="{{ '/classes/know_thy_past/class3' | relative_url }}" title="Know Thy Past Class 3">III</a>
+        <a href="{{ '/classes/know_thy_past/class4' | relative_url }}" title="Know Thy Past Class 4">IV</a>
+      </div>
+    </div>
+    <div class="module-nav-group">
+      <a class="module-nav-title" href="{{ '/classes/know_thy_topos/know_thy_topos' | relative_url }}">Know Thy Topos</a>
+      <div class="module-class-links" aria-label="Know Thy Topos classes">
+        <a href="{{ '/classes/know_thy_topos/class1' | relative_url }}" title="Know Thy Topos Class 1">I</a>
+        <a href="{{ '/classes/know_thy_topos/class2' | relative_url }}" title="Know Thy Topos Class 2">II</a>
+      </div>
+    </div>
+    <div class="module-nav-group">
+      <a class="module-nav-title" href="{{ '/classes/miz/miz' | relative_url }}">Mathematics in Zombieland</a>
+      <div class="module-class-links" aria-label="Mathematics in Zombieland classes">
+        <a href="{{ '/classes/miz/class1' | relative_url }}" title="Mathematics in Zombieland Class 1">I</a>
+        <a href="{{ '/classes/miz/class2' | relative_url }}" title="Mathematics in Zombieland Class 2">II</a>
+        <a href="{{ '/classes/miz/class3' | relative_url }}" title="Mathematics in Zombieland Class 3">III</a>
+        <a href="{{ '/classes/miz/class4' | relative_url }}" title="Mathematics in Zombieland Class 4">IV</a>
+        <a href="{{ '/classes/miz/class5' | relative_url }}" title="Mathematics in Zombieland Class 5">V</a>
+      </div>
+    </div>
+    <div class="module-nav-group">
+      <a class="module-nav-title" href="{{ '/classes/prepare_your_society/prepare_your_society' | relative_url }}">Prepare Your Society</a>
+    </div>
 
     <h2 class="nav-label">Skills</h2>
     <a href="{{ '/skills/medical/medical' | relative_url }}">Medical Skills</a>

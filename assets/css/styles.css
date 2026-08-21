@@ -12,7 +12,6 @@ Emergency Operations / Field Manual Theme
 --bg-card: #20251f;          /* cards, lists, tables */
 --bg-card-alt: #262c25;      /* alternating rows/cards */
 
-```
 /* Accent Colors */
 --hazard-yellow: #d6a21d;    /* official warning/hazard yellow */
 --hazard-yellow-light: #f0c94a;
@@ -31,8 +30,6 @@ Emergency Operations / Field Manual Theme
 
 /* Effects */
 --shadow-main: rgba(0, 0, 0, 1);
-```
-
 }
 
 /* =========================================================
@@ -99,6 +96,43 @@ font-weight: bold;
 nav a:hover {
 color: var(--link-hover);
 text-decoration: none;
+}
+
+/* Compact lesson shortcuts beneath each module landing page. */
+.module-nav-group {
+margin-bottom: 14px;
+}
+
+nav .module-nav-title {
+margin-bottom: 3px;
+}
+
+.module-class-links {
+display: flex;
+flex-wrap: wrap;
+gap: 5px;
+padding-left: 8px;
+}
+
+nav .module-class-links a {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+min-width: 24px;
+height: 24px;
+margin: 0;
+padding: 0 4px;
+border: 1px solid var(--section-line);
+background: var(--bg-nav-dark);
+font-size: 0.78rem;
+line-height: 1;
+}
+
+nav .module-class-links a:hover,
+nav .module-class-links a:focus-visible {
+border-color: var(--hazard-yellow-light);
+background: var(--bg-card-alt);
+outline: none;
 }
 
 /* =========================================================
@@ -582,7 +616,6 @@ position: absolute;
 left: -9999px;
 }
 
-```
 /* Make main content full width */
 .main-content {
     margin: 0 auto;
@@ -619,6 +652,29 @@ nav a {
     white-space: nowrap;
 }
 
+.module-nav-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4px 8px 10px;
+}
+
+.module-class-links {
+    justify-content: center;
+    padding-left: 0;
+}
+
+nav .module-nav-title {
+    margin-bottom: 2px;
+}
+
+nav .module-class-links a {
+    min-width: 26px;
+    height: 26px;
+    margin: 2px;
+    padding: 0 4px;
+}
+
 nav h1 {
     width: 100%;
     text-align: center;
@@ -646,6 +702,4 @@ nav h1 {
 .gap-large {
     min-height: 180px;
 }
-```
-
 }
