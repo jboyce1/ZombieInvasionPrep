@@ -25,6 +25,7 @@ Use **Blackouts & Biters** when students need a fast introduction before attempt
 
 * [Blackouts & Biters quick rules and turn tracker (PDF)]({{ '/classes/prepare_thyself/files/blackouts-and-biters-rules.pdf' | relative_url }}){:target="_blank" rel="noopener noreferrer"}
 * [Blackouts & Biters printable card deck (PDF)]({{ '/classes/prepare_thyself/files/blackouts-and-biters-cards.pdf' | relative_url }}){:target="_blank" rel="noopener noreferrer"}
+* [Play Blackouts & Biters online — download the PlayingCards.io room](https://github.com/jboyce1/blackouts-and-biters-pcio){:target="_blank" rel="noopener noreferrer"}
 
 The four hidden phases are Initial Aid Crisis, Search & Drone Escalation, Signal & Coordination Failure, and Long-Haul Logistics. Capability cards identify the track that leads, what the skill can reveal, and the limits of the associated training or credential.
 
