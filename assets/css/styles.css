@@ -512,9 +512,15 @@ z-index: 10000;
 display: flex;
 align-items: center;
 justify-content: center;
+box-sizing: border-box;
 width: 100vw;
 height: 100vh;
 height: 100dvh;
+padding:
+  max(16px, env(safe-area-inset-top))
+  max(16px, env(safe-area-inset-right))
+  max(32px, env(safe-area-inset-bottom))
+  max(16px, env(safe-area-inset-left));
 overflow: hidden;
 background: #000;
 cursor: pointer;
@@ -525,11 +531,12 @@ user-select: none;
 outline: none;
 }
 
-.valley-slide {
+.main-content .valley-slide {
 display: block;
 width: 100%;
 height: 100%;
 max-width: none !important;
+max-height: 100%;
 object-fit: contain;
 border: 0 !important;
 }
