@@ -81,6 +81,7 @@ View the presentation one image at a time.
   id="valley-presentation"
   data-slide-root="{{ '/classes/know_thyself/files/uncanny-valley-slides' | relative_url }}"
   data-slide-count="20"
+  data-presentation-name="Uncanny Valley presentation"
   role="dialog"
   aria-modal="true"
   aria-label="Uncanny Valley presentation"

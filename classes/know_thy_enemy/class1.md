@@ -153,16 +153,31 @@ Additional scenario information and context will be provided during class.
 
 Review the assignment, identify its major requirements, and begin developing a plan with your Z-Team.
 
-<div style="width: 100%; height: 750px; border: 2px solid #555; overflow: hidden; margin: 20px 0;">
-  <iframe
-    src="{{ '/classes/know_thy_enemy/z-team_assignment_1.pdf' | relative_url }}"
-    width="100%"
-    height="100%"
-    style="border: none;"
-    title="Z-Team Assignment 1 PDF">
-  </iframe>
+<button
+  type="button"
+  class="valley-launch"
+  id="valley-launch"
+  aria-haspopup="dialog">
+  Start Z-Team Assignment 1 Presentation
+</button>
+
+<div
+  class="valley-presentation"
+  id="valley-presentation"
+  data-slide-root="{{ '/classes/know_thy_enemy/files/z-team-assignment-1-slides' | relative_url }}"
+  data-slide-count="13"
+  data-presentation-name="Z-Team Assignment 1 presentation"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Z-Team Assignment 1 presentation"
+  tabindex="-1"
+  hidden>
+  <img class="valley-slide" id="valley-slide" alt="Presentation slide">
+  <button type="button" class="valley-exit" id="valley-exit">Exit Presentation</button>
+  <div class="valley-status" id="valley-status" aria-live="polite"></div>
 </div>
 
+<script src="{{ '/assets/js/uncanny-valley.js' | relative_url }}" defer></script>
 
 [Open or download Z-Team Assignment 1 PDF]({{ '/classes/know_thy_enemy/z-team_assignment_1.pdf' | relative_url }})
 

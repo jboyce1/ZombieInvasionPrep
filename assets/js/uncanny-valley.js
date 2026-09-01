@@ -11,6 +11,8 @@
 
   const slideRoot = presentation.dataset.slideRoot;
   const slideCount = Number(presentation.dataset.slideCount);
+  const presentationName =
+    presentation.dataset.presentationName || "Uncanny Valley presentation";
   let currentSlide = 0;
   let isOpen = false;
 
@@ -31,7 +33,7 @@
 
     slide.src = slideUrl(currentSlide);
     slide.classList.remove("is-black");
-    slide.alt = `Uncanny Valley presentation slide ${currentSlide} of ${slideCount}`;
+    slide.alt = `${presentationName} slide ${currentSlide} of ${slideCount}`;
     status.textContent = `Slide ${currentSlide} of ${slideCount}`;
 
     if (currentSlide < slideCount) {
