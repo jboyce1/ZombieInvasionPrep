@@ -7,7 +7,12 @@ title: Asynchronous Mission 1 — Lockdown at Home
 
 **Your question:** If everyone in your home had to stay inside—with no electricity and no running water—how long could your household remain there **safely**?
 
-**Your product:** a household-continuity briefing. Use the [editable PowerPoint template]({{ '/classes/field_assignments/files/lockdown-at-home-student-template.pptx' | relative_url }}), print the [paper-friendly PDF template]({{ '/classes/field_assignments/files/lockdown-at-home-printable-template.pdf' | relative_url }}), or follow the same numbered sections on your own paper. If you work on paper, photograph or submit the pages as your teacher normally requires.
+**Your products:**
+
+1. Complete the [editable investigation workbook (Word)]({{ '/classes/field_assignments/files/lockdown-at-home-student-workbook.docx' | relative_url }}). Type in it with Word or LibreOffice, or print it and write by hand.
+2. Turn your most important findings into the [editable presentation template (PowerPoint)]({{ '/classes/field_assignments/files/lockdown-at-home-presentation-template.pptx' | relative_url }}).
+
+The **workbook** is your detailed evidence for the teacher. The **presentation** is your clear, privacy-safe household briefing. Do not try to squeeze the entire inventory into the slides.
 
 **Time:** about 2–3 hours. You may divide the work across several days.
 
@@ -31,7 +36,7 @@ If an adult does not want you to inspect something, record **“not inventoried�
 
 # Phase 1 — Establish the household
 
-On **Slide/Page 2**, record:
+In **Workbook Section 1**, record:
 
 * number of adults, teenagers, younger children, and pets—no names;
 * needs that change the plan, such as mobility, refrigeration-dependent supplies, infant care, allergies, dietary needs, or pet care—no diagnoses;
@@ -44,7 +49,7 @@ Then write a one-sentence decision statement:
 
 # Phase 2 — Build an honest inventory
 
-Use **Slides/Pages 3–5**. Count what is available now. Do not count an item twice and do not assume you can buy, collect, or borrow it later.
+Use **Workbook Sections 2–4**. Count what is available now. Do not count an item twice and do not assume you can buy, collect, or borrow it later.
 
 ## Water
 
@@ -81,7 +86,7 @@ Use the [Ready.gov emergency supply list](https://www.ready.gov/kit){:target="_b
 
 # Phase 3 — Solve the sanitation problem
 
-On **Slide/Page 6**, explain what your household will do if toilets, sinks, trash pickup, and sewer service do not work.
+In **Workbook Section 5**, explain what your household will do if toilets, sinks, trash pickup, and sewer service do not work.
 
 Your plan must address:
 
@@ -95,7 +100,7 @@ Start with [CDC: Water Emergency Safety Guidelines](https://www.cdc.gov/water-em
 
 # Phase 4 — Make decisions before pressure rises
 
-Use **Slides/Pages 7–9**. For every decision, state the rule, the reason, and a trigger that would cause the household to reconsider.
+Use **Workbook Sections 6–8**. For every decision, state the rule, the reason, and a trigger that would cause the household to reconsider.
 
 ## Rationing rule
 
@@ -136,7 +141,7 @@ Do **not** propose traps, patrol confrontations, vigilante action, or instructio
 
 # Phase 5 — Plan communications
 
-On **Slide/Page 10**, create a PACE plan: **Primary, Alternate, Contingency, Emergency**.
+In **Workbook Section 9**, create a PACE plan: **Primary, Alternate, Contingency, Emergency**.
 
 Consider cell/text, an out-of-area contact, battery radio, NOAA Weather Radio, walkie-talkies, a written message location, and an in-person signal that does not reveal private information. Radios do not all reach the same distance, and some radio services require licenses.
 
@@ -144,7 +149,7 @@ Use [Ready.gov: Family Emergency Communication Plan](https://www.ready.gov/plan-
 
 # Phase 6 — Find the bottleneck
 
-On **Slide/Page 11**, show your estimates for water-days, food-days, sanitation-days, critical-supply days, and safe-temperature days.
+In **Workbook Section 10**, show your estimates for water-days, food-days, sanitation-days, critical-supply days, and safe-temperature days.
 
 > **Safe shelter time = the lowest defensible number of days**
 
@@ -155,24 +160,36 @@ Explain why that lowest number is your bottleneck. Then identify:
 * one agreement or relationship that matters more than an object;
 * the trigger that would mean sheltering at home is no longer safe—without pretending evacuation is possible in this scenario.
 
-# Phase 7 — Give the family briefing
+# Phase 7 — Build and give the household briefing
 
-**Slides/Pages 12–14 are family-facing.** They should make sense without the inventory details in the teacher-facing section.
+Use **Workbook Section 11** to plan your presentation. The PowerPoint provides a suggested 12-slide structure, but its content boxes are guides—not forms. You may delete, resize, combine, or redesign them. You may also use a different presentation program or create your own deck.
 
-1. **Our situation:** estimated safe shelter time, biggest strength, and biggest gap.
-2. **Our Day 1 plan:** roles, rationing rule, sanitation rule, communication plan, and neighbor boundary.
-3. **Three decisions to make together:** realistic actions the household could discuss now.
+Your presentation should communicate:
 
-Invite feedback; do not demand that your household adopt the plan. Afterward, record one response on **Slide/Page 15**: what the person agreed with, questioned, or changed. If no household member is available, review the pitch yourself and identify its weakest assumption.
+* who the plan serves, without private details;
+* your safe-shelter estimate and bottleneck;
+* the water and food math supporting the estimate;
+* sanitation and other basic needs;
+* rationing, roles, fairness, and decision triggers;
+* your claim about neighbors and mutual aid;
+* the PACE communication plan and nonviolent safety boundaries;
+* prioritized improvements;
+* a usable Day 1 household plan;
+* three decisions worth making now;
+* the sources that affected your conclusions.
+
+The presentation is a **briefing**, not a copy of the workbook. Favor large text, visible calculations, short claims, and a few useful visuals. Credit any image you use.
+
+Invite feedback; do not demand that your household adopt the plan. Record one response in the workbook: what the person agreed with, questioned, or changed. If no household member is available, review the pitch yourself and identify its weakest assumption.
 
 # What to submit
 
-Submit **one** of these:
+Submit:
 
-* the completed PowerPoint template; or
-* 15 clearly labeled handwritten pages following the slide titles.
+* your completed investigation workbook, either as a Word file or clearly photographed/scanned handwritten pages; and
+* your completed presentation, either using the supplied PowerPoint or another slide format your teacher can open.
 
-Your submission must include visible arithmetic, at least **three linked sources**, a defensible bottleneck, pre-decided rules, and the three-slide family briefing. A bibliography is already provided on Slide/Page 16; add any other sources you use.
+Together, your files must include visible arithmetic, at least **three linked sources**, a defensible bottleneck, pre-decided rules, and a clear household briefing.
 
 Before submitting, check:
 
@@ -181,7 +198,7 @@ Before submitting, check:
 * [ ] I showed how I calculated water-days and food-days.
 * [ ] I planned for sanitation, trash, communication, roles, neighbors, rationing, and lawful nonviolent security.
 * [ ] My safe-shelter estimate uses the **weakest** system, not my most optimistic number.
-* [ ] My family-facing slides are respectful, realistic, and understandable on their own.
+* [ ] My presentation is respectful, realistic, legible, and understandable without reading the workbook.
 
 # How the work will be assessed
 
@@ -191,10 +208,12 @@ Before submitting, check:
 | Systems thinking | Sanitation, health, temperature, communication, trash, and dependencies connect logically | 20 |
 | Decisions and tradeoffs | Rationing, roles, neighbors, boundaries, and security choices include reasons and triggers | 25 |
 | Evidence | At least three credible sources are used where they affect a decision | 15 |
-| Family briefing | Three concise, usable slides/pages plus one recorded response | 15 |
+| Household briefing | Clear, selective, legible presentation plus one recorded response | 15 |
 | Privacy and completion | Safety boundaries followed; all sections complete and readable | 5 |
 | **Total** |  | **100** |
 
-## If the internet or PowerPoint is unavailable
+## If software, printing, or internet access is limited
 
-The instructions on this page are the complete assignment. Copy the 15 slide titles onto paper and complete them by hand. Use the planning baselines printed here and mark outside information as **“source unavailable.”** You can still earn full credit by reasoning carefully, showing your math, and explaining the limitation.
+The Word workbook can be edited locally in Microsoft Word or free software such as LibreOffice. It may also be printed if printing is available, but printing is not required. If you cannot edit the file, follow its section headings on your own paper and submit clear photographs or scans.
+
+The instructions on this page contain the complete assignment. If outside sources are temporarily unavailable, use the planning baselines printed here and mark outside information as **“source unavailable.”** Tell your teacher what format you were able to use; the format should not prevent you from demonstrating the learning.
