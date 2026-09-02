@@ -610,6 +610,56 @@ margin: 20px 0;
 color: var(--text-main);
 }
 
+/* Accessible task checklists used by asynchronous lessons. */
+.main-content input[type="checkbox"] {
+width: 1.1rem;
+height: 1.1rem;
+margin-right: 0.45rem;
+accent-color: var(--hazard-yellow);
+}
+
+@media print {
+nav,
+#left-nav {
+display: none !important;
+}
+
+body,
+.main-content {
+background: #fff !important;
+color: #000 !important;
+}
+
+.main-content {
+margin: 0;
+padding: 0;
+max-width: none;
+width: 100%;
+border: 0;
+box-shadow: none;
+}
+
+.main-content p,
+.main-content li,
+.main-content td,
+.main-content blockquote {
+color: #000 !important;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content a {
+color: #000 !important;
+}
+
+.main-content a[href^="http"]::after {
+content: " (" attr(href) ")";
+font-size: 0.8em;
+font-weight: normal;
+}
+}
+
 /* =========================================================
 Mobile Styles
 ========================================================= */

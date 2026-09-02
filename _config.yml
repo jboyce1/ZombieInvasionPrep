@@ -5,3 +5,4 @@ theme: minima
 exclude:
   - classes/know_thy_past/_teacher
   - classes/prepare_your_society/_teacher
+  - classes/field_assignments/_teacher
