@@ -91,7 +91,7 @@ After submitting your answers, be ready to think about how personality connects 
 
 <a href="https://bigfive-test.com/test" target="_blank" rel="noopener noreferrer">Take the big-five test</a>
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSfZJC2UCP4ZR7HfDXrVZoowGWVIvjrbcL7TeW-A8NA94Z4a7g/viewform?usp=publish-editor" target="_blank" rel="noopener noreferrer">Submit your results</a>
+<a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=mhxxjxzsu023kLsMdxsdzM6J33C5yQRJgc1SHWy_64dUQkRFT0wzRktJVkQ5SU1MMVRWN1NQUExNVi4u" target="_blank" rel="noopener noreferrer">Submit your results</a>
 
 
 <div class="gap-large">&nbsp;</div>  <!-- use gap-large gap-medium gap-small -->
