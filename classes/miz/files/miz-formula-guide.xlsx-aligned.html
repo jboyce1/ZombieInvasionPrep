@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><title>Mathematics in Zombieland — Spreadsheet-Aligned Formula Guide</title>
+<style>
+@page{size:letter;margin:.7in} body{font-family:Arial,sans-serif;font-size:10.5pt;line-height:1.28;color:#222;max-width:7.1in;margin:auto}
+h1{font-size:23pt;text-align:center;color:#6b1017;margin:0 0 3pt} .subtitle{text-align:center;font-size:14pt;color:#555;margin:0 0 18pt}
+h2{font-size:16pt;color:#6b1017;border-bottom:1px solid #b9a0a2;padding-bottom:3pt;margin:16pt 0 6pt} h3{font-size:12pt;color:#444;margin:12pt 0 4pt}
+p{margin:5pt 0} table{border-collapse:collapse;width:100%;margin:7pt 0 10pt;font-size:9.5pt} th{background:#6b1017;color:white;text-align:left} th,td{border:1px solid #aaa;padding:4pt;vertical-align:top}
+tr:nth-child(even) td{background:#f5eeee}.eq{font-family:"Cambria Math","DejaVu Serif",serif;font-size:12pt;margin:4pt 0}.cell{font-family:Consolas,"Liberation Mono",monospace;font-size:9pt;margin:3pt 0}
+.note{border-left:4px solid #6b1017;background:#f6f0f0;padding:7pt 9pt;margin:9pt 0}.small{font-size:8.5pt;color:#666;text-align:center;margin-top:18pt} li{margin:3pt 0}
+</style></head><body>
+<h1>Mathematics in Zombieland</h1><p class="subtitle">Spreadsheet-Aligned Formula Guide<br><small>SUDZ state variables • kbamzr rate variables • exact iterative calculations</small></p>
+
+<h2>Purpose and source</h2>
+<p>This guide rewrites the mathematical model exactly as it is implemented in <b>miz-model.xlsx</b> (the same file as “1 year model mathmatics in zombieland v2.xlsx”). The workbook advances the population one numbered iteration at a time; it does not directly evaluate continuous-time derivative equations. Every population result is also prevented from becoming negative by Excel’s <b>IF(…&lt;0,0,…)</b> wrapper.</p>
+
+<h2>Notation</h2>
+<table><tr><th>Symbol</th><th>Workbook meaning</th><th>Location</th></tr>
+<tr><td>n</td><td>current iteration; n+1 is the next iteration</td><td>columns B, C, D, …</td></tr>
+<tr><td>h</td><td>interaction/time-step scaling constant</td><td>$C$3; default 0.000002</td></tr>
+<tr><td>S<sub>n</sub></td><td>susceptible people at iteration n</td><td>row 4</td></tr>
+<tr><td>U<sub>n</sub></td><td>undead/infected-but-not-yet-zombie people</td><td>row 5</td></tr>
+<tr><td>D<sub>n</sub></td><td>cumulative dead at iteration n</td><td>row 6</td></tr>
+<tr><td>Z<sub>n</sub></td><td>zombies at iteration n</td><td>row 7</td></tr>
+<tr><td>k<sub>n</sub></td><td>fraction/probability of zombie-killing encounters</td><td>row 11</td></tr>
+<tr><td>b<sub>n</sub></td><td>birth rate applied to susceptible people</td><td>row 12</td></tr>
+<tr><td>a<sub>n</sub></td><td>fraction/probability of encounters that infect a susceptible person</td><td>row 13</td></tr>
+<tr><td>m<sub>n</sub></td><td>non-zombie mortality rate applied to susceptible people</td><td>row 14</td></tr>
+<tr><td>z<sub>n</sub></td><td>fraction/probability of undead eligible to complete zombification</td><td>row 15</td></tr>
+<tr><td>r<sub>n</sub></td><td>fraction of undead converted to zombies per iteration</td><td>row 16</td></tr></table>
+<p><b>SUDZ</b> names the four population states. <b>kbamzr</b> names the six rates in the order used by the workbook: k, b, a, m, z, r.</p>
+
+<h2>Exact SUDZ update formulas</h2><p>Define <b>clamp(x) = max(0, x)</b>. Then the workbook calculates:</p>
+<p class="eq"><b>Susceptible:</b> S<sub>n+1</sub> = clamp[S<sub>n</sub> + h(b<sub>n</sub>S<sub>n</sub> − m<sub>0</sub>S<sub>n</sub> − a<sub>0</sub>S<sub>n</sub>Z<sub>n</sub>)]</p>
+<p class="eq"><b>Undead:</b> U<sub>n+1</sub> = clamp[U<sub>n</sub> + h(a<sub>n</sub>S<sub>n</sub>Z<sub>n</sub> − z<sub>n</sub>U<sub>n</sub>) − r<sub>n</sub>U<sub>n</sub>]</p>
+<p class="eq"><b>Dead:</b> D<sub>n+1</sub> = clamp[D<sub>n</sub> + h(k<sub>n</sub>S<sub>n</sub>Z<sub>n</sub> + m<sub>n</sub>S<sub>n</sub>)]</p>
+<p class="eq"><b>Zombies:</b> Z<sub>n+1</sub> = clamp[Z<sub>n</sub> + z<sub>n</sub>r<sub>n</sub>U<sub>n</sub> − hk<sub>n</sub>S<sub>n</sub>Z<sub>n</sub>]</p>
+<div class="note"><b>Workbook-specific detail:</b> the susceptible formula fixes <i>a</i> and <i>m</i> to baseline cells B13 and B14 (shown as a<sub>0</sub> and m<sub>0</sub>), even after later columns change a<sub>n</sub> or m<sub>n</sub>. The undead, dead, and zombie formulas use rates from the current iteration. This guide preserves that behavior for spreadsheet fidelity.</div>
+
+<h3>What each update adds and subtracts</h3><ul>
+<li><b>Susceptible:</b> begin with S<sub>n</sub>; add scaled births hb<sub>n</sub>S<sub>n</sub>; subtract scaled ordinary deaths hm<sub>0</sub>S<sub>n</sub>; subtract scaled infections ha<sub>0</sub>S<sub>n</sub>Z<sub>n</sub>.</li>
+<li><b>Undead:</b> begin with U<sub>n</sub>; add scaled infections ha<sub>n</sub>S<sub>n</sub>Z<sub>n</sub>; subtract scaled zombification eligibility hz<sub>n</sub>U<sub>n</sub>; then subtract the per-iteration converted share r<sub>n</sub>U<sub>n</sub>.</li>
+<li><b>Dead:</b> begin with D<sub>n</sub>; add scaled zombies killed hk<sub>n</sub>S<sub>n</sub>Z<sub>n</sub> and scaled ordinary deaths hm<sub>n</sub>S<sub>n</sub>. This row is cumulative.</li>
+<li><b>Zombies:</b> begin with Z<sub>n</sub>; add undead who complete conversion z<sub>n</sub>r<sub>n</sub>U<sub>n</sub>; subtract scaled zombies killed hk<sub>n</sub>S<sub>n</sub>Z<sub>n</sub>.</li></ul>
+
+<h2>Excel cell form for one step (B → C)</h2><p>These are simplified but cell-faithful versions of C4:C7:</p>
+<p class="cell">C4 = MAX(0, B4 + $C$3 × (B12×B4 − $B$14×B4 − $B$13×B4×B7))</p>
+<p class="cell">C5 = MAX(0, B5 + $C$3 × (B13×B4×B7 − B15×B5) − B16×B5)</p>
+<p class="cell">C6 = MAX(0, B6 + $C$3 × (B11×B4×B7 + B14×B4))</p>
+<p class="cell">C7 = MAX(0, B7 + B15×B5×B16 − $C$3×B11×B4×B7)</p>
+
+<h2>Interactions and cumulative interactions</h2><ul><li class="eq">Interactions at iteration n: I<sub>n</sub> = hS<sub>n</sub>Z<sub>n</sub></li><li class="eq">Cumulative interactions: T<sub>1</sub> = I<sub>1</sub> and T<sub>n</sub> = T<sub>n−1</sub> + I<sub>n</sub></li></ul>
+
+<h2>How kbamzr connects to SUDZ</h2>
+<table><tr><th>Rate</th><th>Direct numerical effect</th><th>Appears in</th></tr>
+<tr><td>k</td><td>moves killed zombies out of Z and adds the same scaled quantity to D</td><td>D, Z</td></tr>
+<tr><td>b</td><td>adds births to S</td><td>S</td></tr>
+<tr><td>a</td><td>removes infected people from S and adds infections to U; S uses baseline a<sub>0</sub></td><td>S, U</td></tr>
+<tr><td>m</td><td>removes ordinary deaths from S and adds them to D; S uses baseline m<sub>0</sub></td><td>S, D</td></tr>
+<tr><td>z</td><td>participates in loss from U and gain to Z, but with different scaling in the workbook</td><td>U, Z</td></tr>
+<tr><td>r</td><td>removes r<sub>n</sub>U<sub>n</sub> from U and contributes z<sub>n</sub>r<sub>n</sub>U<sub>n</sub> to Z each iteration</td><td>U, Z</td></tr></table>
+
+<h2>Corrections to the short formulas in the task guide</h2><ul>
+<li>“Change in Zombies = zU − kSZ” omits both h and r. The workbook update is Z<sub>n+1</sub> = clamp[Z<sub>n</sub> + z<sub>n</sub>r<sub>n</sub>U<sub>n</sub> − hk<sub>n</sub>S<sub>n</sub>Z<sub>n</sub>].</li>
+<li>“Change in Undead = aSZ − zU” omits h, r, the prior U value, and the workbook’s placement of r outside h. Use the full U update above.</li>
+<li>“Change in Dead = kSZ + mS” captures the two flows but omits h, the prior cumulative D value, and the zero clamp.</li>
+<li>“Change in Susceptible = bS − mS − aSZ” captures the three flows but omits h, the prior S value, the clamp, and the workbook’s fixed baseline references for a and m.</li>
+<li>The task guide states that the current birth rate is 0.03. The workbook’s <b>No Action</b> baseline is <b>0.003</b>; 0.03 begins in Phase 4. Use the value in the relevant workbook column.</li></ul>
+
+<h2>Reading the model correctly</h2><ul>
+<li>Each new column uses the previous column’s S, U, D, and Z values and the previous column’s rate settings.</li>
+<li>The IF wrapper turns any negative proposed population into zero; the workbook does not permit negative SUDZ values.</li>
+<li>The factor h scales births, deaths, encounters, infection, and the zU subtraction in U, but it does not scale rU in U or zrU in Z.</li>
+<li>The spreadsheet is not perfectly mass-conserving. Explain results as outputs of this workbook rather than assuming every person removed from one row appears identically in another.</li></ul>
+<p class="small">Prepared from Sheet2, rows 4–16, in the v2/published workbook. Originals were not modified.</p>
+</body></html>

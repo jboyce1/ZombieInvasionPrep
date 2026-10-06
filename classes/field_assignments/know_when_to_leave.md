@@ -51,7 +51,7 @@ During a real emergency, follow evacuation orders and official route instruction
 
 # Phase 1 — Define two different threats
 
-In **Workbook Section 1**, select two plausible hazards that would make you leave in different directions. Examples include:
+In **Workbook Section 1**, select **exactly two plausible hazards**: one will be **Threat A** and one will be **Threat B**. Do not research every hazard below. Choose one pair that would make you leave in different directions. Example pairs include:
 
 * river flooding versus a wind-driven hazardous-material plume;
 * wildfire approaching from one direction versus flooding that closes a bridge;

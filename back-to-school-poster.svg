@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24in" height="36in" viewBox="0 0 2400 3600">
+  <defs>
+    <pattern id="hazard" width="112" height="112" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="56" height="112" fill="#d6a21d"/>
+      <rect x="56" width="56" height="112" fill="#050505"/>
+    </pattern>
+    <linearGradient id="heroFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0d0a" stop-opacity="0"/>
+      <stop offset="0.68" stop-color="#171b16" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#171b16"/>
+    </linearGradient>
+    <clipPath id="heroClip"><rect x="110" y="300" width="2180" height="760" rx="6"/></clipPath>
+    <style>
+      .mono { font-family: "DejaVu Sans Mono", "Liberation Mono", "Courier New", monospace; }
+      .cream { fill: #e7dfc6; }
+      .yellow { fill: #f1c232; }
+      .muted { fill: #b9b096; }
+      .label { font-size: 28px; font-weight: 700; letter-spacing: 6px; }
+      .body { font-size: 41px; font-weight: 500; }
+      .module { font-size: 28px; font-weight: 700; letter-spacing: 1px; }
+    </style>
+  </defs>
+
+  <rect width="2400" height="3600" fill="#0b0d0a"/>
+  <rect x="42" y="42" width="2316" height="3516" fill="#171b16" stroke="#050505" stroke-width="32"/>
+  <rect x="72" y="72" width="2256" height="70" fill="url(#hazard)"/>
+  <rect x="72" y="3458" width="2256" height="70" fill="url(#hazard)"/>
+
+  <text x="1200" y="224" text-anchor="middle" class="mono label yellow">EMERGENCY OPERATIONS // COURSE BRIEF</text>
+
+  <g clip-path="url(#heroClip)">
+    <image x="110" y="300" width="2180" height="760" preserveAspectRatio="xMidYMid slice" xlink:href="classes/know_thy_enemy/what_is_a_zombie_header.png"/>
+    <rect x="110" y="300" width="2180" height="760" fill="url(#heroFade)"/>
+  </g>
+  <rect x="110" y="300" width="2180" height="760" fill="none" stroke="#6f7668" stroke-width="10"/>
+
+  <text x="1200" y="800" text-anchor="middle" class="mono yellow" font-size="145" font-weight="900" letter-spacing="-5">ZOMBIE INVASION</text>
+  <text x="1200" y="947" text-anchor="middle" class="mono cream" font-size="126" font-weight="900" letter-spacing="15">PREPARATION</text>
+  <rect x="305" y="1000" width="1790" height="72" fill="#8b1e1e" stroke="#050505" stroke-width="8"/>
+  <text x="1200" y="1050" text-anchor="middle" class="mono cream" font-size="34" font-weight="900" letter-spacing="8">THIS IS ONLY A DRILL — PROBABLY</text>
+
+  <text x="128" y="1186" class="mono label yellow">MISSION</text>
+  <line x1="128" y1="1214" x2="2272" y2="1214" stroke="#6f7668" stroke-width="7"/>
+  <text class="mono body cream">
+    <tspan x="128" y="1287">Zombie Invasion Prep addresses Pennsylvania Social Studies</tspan>
+    <tspan x="128" y="1347">standards through project-based study of government,</tspan>
+    <tspan x="128" y="1407">citizenship, history, geography, research, and psychology.</tspan>
+    <tspan x="128" y="1491">Students use a fictional zombie crisis to investigate why</tspan>
+    <tspan x="128" y="1551">societies need rules and leadership, how communities respond</tspan>
+    <tspan x="128" y="1611">to disaster, how fear shapes behavior, and how evidence can</tspan>
+    <tspan x="128" y="1671">support complex arguments.</tspan>
+  </text>
+
+  <g transform="translate(110 1780)">
+    <rect width="2180" height="690" fill="#20251f" stroke="#6f7668" stroke-width="8"/>
+    <text x="52" y="72" class="mono label yellow">FIELD OPERATIONS // WHAT WE STUDY</text>
+    <line x1="52" y1="102" x2="2128" y2="102" stroke="#6f7668" stroke-width="5"/>
+
+    <g transform="translate(52 150)">
+      <rect width="630" height="220" fill="#262c25" stroke="#d6a21d" stroke-width="5"/>
+      <text x="30" y="52" class="mono module yellow">01 // KNOW THY ENEMY</text>
+      <text x="30" y="105" class="mono cream" font-size="31">History • evidence</text>
+      <text x="30" y="150" class="mono cream" font-size="31">culture • definitions</text>
+    </g>
+    <g transform="translate(775 150)">
+      <rect width="630" height="220" fill="#262c25" stroke="#d6a21d" stroke-width="5"/>
+      <text x="30" y="52" class="mono module yellow">02 // KNOW THYSELF</text>
+      <text x="30" y="105" class="mono cream" font-size="31">Fear • psychology</text>
+      <text x="30" y="150" class="mono cream" font-size="31">leadership • teams</text>
+    </g>
+    <g transform="translate(1498 150)">
+      <rect width="630" height="220" fill="#262c25" stroke="#d6a21d" stroke-width="5"/>
+      <text x="30" y="52" class="mono module yellow">03 // KNOW THY PAST</text>
+      <text x="30" y="105" class="mono cream" font-size="31">Disease • outbreaks</text>
+      <text x="30" y="150" class="mono cream" font-size="31">history • resilience</text>
+    </g>
+
+    <g transform="translate(52 410)">
+      <rect width="992" height="220" fill="#262c25" stroke="#d6a21d" stroke-width="5"/>
+      <text x="30" y="52" class="mono module yellow">04 // PREPARE THYSELF</text>
+      <text x="30" y="105" class="mono cream" font-size="31">Emergency communications • first aid</text>
+      <text x="30" y="150" class="mono cream" font-size="31">mapping • knots • decision-making</text>
+    </g>
+    <g transform="translate(1136 410)">
+      <rect width="992" height="220" fill="#262c25" stroke="#d6a21d" stroke-width="5"/>
+      <text x="30" y="52" class="mono module yellow">05 // PREPARE YOUR SOCIETY</text>
+      <text x="30" y="105" class="mono cream" font-size="31">Government • public policy</text>
+      <text x="30" y="150" class="mono cream" font-size="31">sustainability • rebuilding</text>
+    </g>
+  </g>
+
+  <g transform="translate(110 2578)">
+    <rect width="2180" height="750" fill="#202719" stroke="#050505" stroke-width="14"/>
+    <rect x="35" y="35" width="680" height="680" fill="#e7dfc6" stroke="#f1c232" stroke-width="12"/>
+    <image x="65" y="65" width="620" height="620" xlink:href="assets/poster/github-qr.png"/>
+
+    <text x="790" y="105" class="mono label yellow">ACCESS THE OPERATIONS MANUAL</text>
+    <text x="790" y="193" class="mono cream" font-size="44" font-weight="700">Scan for course modules, assignments,</text>
+    <text x="790" y="251" class="mono cream" font-size="44" font-weight="700">resources, and survival protocols.</text>
+    <line x1="790" y1="305" x2="2110" y2="305" stroke="#6f7668" stroke-width="6"/>
+    <text x="790" y="380" class="mono yellow" font-size="38" font-weight="900">jboyce1.github.io/</text>
+    <text x="790" y="432" class="mono yellow" font-size="38" font-weight="900">ZombieInvasionPrep/</text>
+    <text x="790" y="534" class="mono cream" font-size="48" font-weight="900">MR. BOYCE</text>
+    <text x="790" y="594" class="mono cream" font-size="35">jboyce1@pghschools.org</text>
+    <text x="790" y="675" class="mono muted" font-size="27" letter-spacing="3">STATUS: READY // JOIN YOUR Z-TEAM</text>
+  </g>
+
+  <text x="1200" y="3416" text-anchor="middle" class="mono muted" font-size="24" letter-spacing="5">OBSERVE • ANALYZE • PREPARE • COOPERATE • SURVIVE</text>
+</svg>
