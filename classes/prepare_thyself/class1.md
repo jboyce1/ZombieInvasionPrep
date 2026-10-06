@@ -23,6 +23,8 @@ By the end of class, students should be able to:
 
 # Skill: Sandbagging
 
+**Mission:** [Sandbag Emergency Logistics — measure your team's output, then plan an emergency response]({{ '/classes/prepare_thyself/sandbagging_mission' | relative_url }}). The mission page includes student worksheets, scenario cards, and teacher materials.
+
 Use the sandbag event to introduce operational discipline rather than treating it only as a strength contest.
 
 High points to teach:
