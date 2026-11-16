@@ -404,3 +404,11 @@ Your reflection does not need to be shared.
 The goal is to think honestly.
 
 Now develop your own scenerio that would be difficult to answer. Consider what struck a cord with you and develop a situation that hits it harder. You scenerio may be used in further discussions or with other classes.
+
+---
+
+## Printable Discussion Handout
+
+[The Lesser of Two Evils, the Greater of Two Goods — Download PDF]({{ '/classes/know_thyself/files/lesser-of-two-evils-greater-of-two-goods.pdf' | relative_url }})
+
+A printable reference listing twelve moral and ethical concepts, zombie invasion scenarios, and questions to consider during the discussion.
